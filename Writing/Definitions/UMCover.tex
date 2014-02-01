@@ -1,0 +1,63 @@
+%!TEX root = MSc_VM_Dissertation.tex
+
+% define extra colors
+\definecolor{grey}{rgb}{0.6,0.6,0.6}
+
+\newfontfamily\MyTitle[
+  Ligatures=TeX,
+  Extension=.ttf,
+  Path=Fonts/,
+  Scale=0.99,
+  BoldFont={NewsGotT Bold},
+  ItalicFont={NewsGoth Lt BT Light},
+  ItalicFeatures={FakeSlant},
+  AutoFakeSlant=0.2,
+  BoldItalicFeatures=FakeSlant, 
+]{NewsGotT Regular}
+
+
+{\MyTitle
+  \makeatletter
+  \begin{titlepage}
+  \setcounter{page}{-1}
+  \thispagestyle{empty}
+
+  \input{Definitions/UMLogo}
+
+  %Logo
+  \centering
+    \vspace{-1cm}
+    \UMEng
+
+  {\centering 
+      \textcolor{grey}{\large\textbf{\univname} \\ \deptname} \\
+      \vspace{1cm}
+      %\textcolor{grey}{\textbf{Master Course in Informatics Engineering}} \\
+      \textcolor{grey}{\textbf{\mei}} \\
+
+  \vspace{4.5cm}
+
+  \textcolor{grey}{{\LARGE \textbf{\@title}}} \\
+  \vspace{1.5cm}
+  %\textcolor{grey}{{\Large \textbf{\@title}}} \\
+  %\vspace {2cm}
+
+  \textcolor{grey}{{\large {\authornames}}} \\
+  \vspace{2cm}
+  }
+
+  \flushleft{\textcolor{grey}{ \emph{Supervised by:}}
+
+  \vspace{0.2cm}
+  \textcolor{grey}{\supname}
+  }
+
+  \vspace {1.5cm}
+
+  \textcolor{grey}{\textbf{\cityname, \@date}} \\
+
+  \pagebreak
+
+  \end{titlepage}
+}
+\makeatother

@@ -1,0 +1,521 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{ynt}
+    \entry{Girao2004c}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=232940370f97e923abd70ea276d3ea9d}{Girao}{G\bibinitperiod}{Joao}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c7ee90d44e0945dac76afbfad424b00c}{Schneider}{S\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6e1a3f1341789e910355b65544b250b4}{Westhoff}{W\bibinitperiod}{Dirk}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=232940370f97e923abd70ea276d3ea9d}{Girao}{G\bibinitperiod}{Joao}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c7ee90d44e0945dac76afbfad424b00c}{Schneider}{S\bibinitperiod}{Markus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6e1a3f1341789e910355b65544b250b4}{Westhoff}{W\bibinitperiod}{Dirk}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia, USA}%
+      }
+      \list{organization}{1}{%
+        {WiSe 2004}%
+      }
+      \strng{namehash}{4ed19cbb4dc905276269e89fc64b56c2}
+      \strng{fullhash}{4ed19cbb4dc905276269e89fc64b56c2}
+      \field{sortinit}{2}
+      \field{labeltitle}{CDA: Concealed Data Aggregation in Wireless Sensor Networks}
+      \field{abstract}{End-to-end encryption for wireless sensor networks is a challenging problem. To save the overall energy resources of the network it is agreed that sensed data need to be consolidated and aggregated on their way to the final destination. For such circumstances we present an approach that conceals sensed and aggregated data end-to-end. Even the aggregating intermediate nodes are not enabled to read the sensed plaintext data. We apply a particular class of encryption transformation and exemplary discuss the approach on the basis of two aggregation functions. We show their appliance in hierarchical aggregator topologies and use actual implementation to show that the approach is feasible and frequently even more energy efficient than hop-by-hop encryption addressing a much weaker attacker model.}
+      \field{booktitle}{ACM Workshop on Wireless Security}
+      \field{month}{10}
+      \field{note}{Poster presentation}
+      \field{title}{CDA: Concealed Data Aggregation in Wireless Sensor Networks}
+      \field{year}{2004}
+      \verb{file}
+      \verb http://www.girao.org/joao/papers/wise2004.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ece.cmu.edu/~adrian/wise2004/
+      \endverb
+      \keyw{Data Energy Homomorphism Privacy Wireless aggregation,consumption,encryption,networks,sensor}
+    \endentry
+    \entry{Castelluccia05efficientaggregation}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=a974433309a9239775bca1e450ef4278}{Castelluccia}{C\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a974433309a9239775bca1e450ef4278}{Castelluccia}{C\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{a974433309a9239775bca1e450ef4278}
+      \strng{fullhash}{a974433309a9239775bca1e450ef4278}
+      \field{sortinit}{2}
+      \field{labeltitle}{Efficient aggregation of encrypted data in wireless sensor networks}
+      \field{booktitle}{In MobiQuitous}
+      \field{title}{Efficient aggregation of encrypted data in wireless sensor networks}
+      \field{year}{2005}
+      \field{pages}{109\bibrangedash 117}
+    \endentry
+    \entry{castelluccia2005efficient}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=a974433309a9239775bca1e450ef4278}{Castelluccia}{C\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c421c7cfcbbc264f4fad042999f2aeee}{Mykletun}{M\bibinitperiod}{Einar}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=92f3f65a8e235ccc9846e9043365f872}{Tsudik}{T\bibinitperiod}{Gene}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=a974433309a9239775bca1e450ef4278}{Castelluccia}{C\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c421c7cfcbbc264f4fad042999f2aeee}{Mykletun}{M\bibinitperiod}{Einar}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=92f3f65a8e235ccc9846e9043365f872}{Tsudik}{T\bibinitperiod}{Gene}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{050f42fe68a0863645fc99c11ef37a53}
+      \strng{fullhash}{050f42fe68a0863645fc99c11ef37a53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Efficient aggregation of encrypted data in wireless sensor networks}
+      \field{booktitle}{Mobile and Ubiquitous Systems: Networking and Services, 2005. MobiQuitous 2005. The Second Annual International Conference on}
+      \field{title}{Efficient aggregation of encrypted data in wireless sensor networks}
+      \field{year}{2005}
+      \field{pages}{109\bibrangedash 117}
+    \endentry
+    \entry{chan2006secure}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=a1925c349e63ef7a8260e5a52ea9bcc3}{Chan}{C\bibinitperiod}{Haowen}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=7008e0fc312a01ec512c7479e63bf472}{Perrig}{P\bibinitperiod}{Adrian}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d458d5f9b64652055bd81d57e4777b22}{Song}{S\bibinitperiod}{Dawn}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=a1925c349e63ef7a8260e5a52ea9bcc3}{Chan}{C\bibinitperiod}{Haowen}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=7008e0fc312a01ec512c7479e63bf472}{Perrig}{P\bibinitperiod}{Adrian}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=d458d5f9b64652055bd81d57e4777b22}{Song}{S\bibinitperiod}{Dawn}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{35d6fb24c98a8c205e4b8e040f7feed3}
+      \strng{fullhash}{35d6fb24c98a8c205e4b8e040f7feed3}
+      \field{sortinit}{2}
+      \field{labeltitle}{Secure hierarchical in-network aggregation in sensor networks}
+      \field{booktitle}{Proceedings of the 13th ACM conference on Computer and communications security}
+      \field{title}{Secure hierarchical in-network aggregation in sensor networks}
+      \field{year}{2006}
+      \field{pages}{278\bibrangedash 287}
+    \endentry
+    \entry{yu2009distributed}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=acae0d16fe2fdc8a53507106044e646c}{Yu}{Y\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=eb7fbed3f8776de1b90974d3aca80614}{Li}{L\bibinitperiod}{Jianzhong}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c73725e0c3dba863faf8c42972e38c89}{Li}{L\bibinitperiod}{Yingshu}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=acae0d16fe2fdc8a53507106044e646c}{Yu}{Y\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=eb7fbed3f8776de1b90974d3aca80614}{Li}{L\bibinitperiod}{Jianzhong}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c73725e0c3dba863faf8c42972e38c89}{Li}{L\bibinitperiod}{Yingshu}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ef6085b47cc5d9e7f3a8da67a2ff0a2c}
+      \strng{fullhash}{ef6085b47cc5d9e7f3a8da67a2ff0a2c}
+      \field{sortinit}{2}
+      \field{labeltitle}{Distributed data aggregation scheduling in wireless sensor networks}
+      \field{booktitle}{INFOCOM 2009, IEEE}
+      \field{title}{Distributed data aggregation scheduling in wireless sensor networks}
+      \field{year}{2009}
+      \field{pages}{2159\bibrangedash 2167}
+    \endentry
+    \entry{akyol2010survey}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=3023d38647f627f2229912fdc0f6c688}{Akyol}{A\bibinitperiod}{BA}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=a9b33ca740518108887cf3cc217b25a5}{Kirkham}{K\bibinitperiod}{Harold}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=3afcb3e0cd3024ad868ea02ce7d3c810}{Clements}{C\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b5a6bd6c03ecaebf13d5c8152bf5a687}{Hadley}{H\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=3023d38647f627f2229912fdc0f6c688}{Akyol}{A\bibinitperiod}{BA}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=a9b33ca740518108887cf3cc217b25a5}{Kirkham}{K\bibinitperiod}{Harold}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=3afcb3e0cd3024ad868ea02ce7d3c810}{Clements}{C\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b5a6bd6c03ecaebf13d5c8152bf5a687}{Hadley}{H\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{99e0087ae7e1fe68682be3afb916b2a8}
+      \strng{fullhash}{4767ea07e90822029751e875524aaa1d}
+      \field{sortinit}{2}
+      \field{labeltitle}{A survey of wireless communications for the electric power system}
+      \field{journaltitle}{Prepared for the US Department of Energy}
+      \field{title}{A survey of wireless communications for the electric power system}
+      \field{year}{2010}
+    \endentry
+    \entry{farhangi2010path}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=2c5a177bfb9baa51db225afabe5ebc06}{Farhangi}{F\bibinitperiod}{Hassan}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=2c5a177bfb9baa51db225afabe5ebc06}{Farhangi}{F\bibinitperiod}{Hassan}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2c5a177bfb9baa51db225afabe5ebc06}
+      \strng{fullhash}{2c5a177bfb9baa51db225afabe5ebc06}
+      \field{sortinit}{2}
+      \field{labeltitle}{The path of the smart grid}
+      \field{journaltitle}{Power and Energy Magazine, IEEE}
+      \field{number}{1}
+      \field{title}{The path of the smart grid}
+      \field{volume}{8}
+      \field{year}{2010}
+      \field{pages}{18\bibrangedash 28}
+    \endentry
+    \entry{parikh2010opportunities}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=26807e77d8d36604c0d3d47b1dfe49b0}{Parikh}{P\bibinitperiod}{Palak\bibnamedelima P}{P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=6de27b6df32128ee1aaad2552f1ef807}{Kanabar}{K\bibinitperiod}{Mitalkumar\bibnamedelima G}{M\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=359bbc03b3caba7d435634246a76954b}{Sidhu}{S\bibinitperiod}{Tarlochan\bibnamedelima S}{T\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=26807e77d8d36604c0d3d47b1dfe49b0}{Parikh}{P\bibinitperiod}{Palak\bibnamedelima P}{P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=6de27b6df32128ee1aaad2552f1ef807}{Kanabar}{K\bibinitperiod}{Mitalkumar\bibnamedelima G}{M\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=359bbc03b3caba7d435634246a76954b}{Sidhu}{S\bibinitperiod}{Tarlochan\bibnamedelima S}{T\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{55fa434ceed0c76763ca161ac7fb9cec}
+      \strng{fullhash}{55fa434ceed0c76763ca161ac7fb9cec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Opportunities and challenges of wireless communication technologies for smart grid applications}
+      \field{booktitle}{Power and Energy Society General Meeting, 2010 IEEE}
+      \field{title}{Opportunities and challenges of wireless communication technologies for smart grid applications}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 7}
+    \endentry
+    \entry{RePEc:eee:rensus:v:15:y:2011:i:6:p:2736-2742}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=95ed7351c13082dc1905c95c45ccd469}{Depuru}{D\bibinitperiod}{Soma\bibnamedelimb Shekara\bibnamedelimb Sreenadh\bibnamedelima Reddy}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=1e8d55f3e6833df80f98de70c511e05f}{Wang}{W\bibinitperiod}{Lingfeng}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=c9986341d1fe013420f1f7cc3ee2d7ba}{Devabhaktuni}{D\bibinitperiod}{Vijay}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=95ed7351c13082dc1905c95c45ccd469}{Depuru}{D\bibinitperiod}{Soma\bibnamedelimb Shekara\bibnamedelimb Sreenadh\bibnamedelima Reddy}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=1e8d55f3e6833df80f98de70c511e05f}{Wang}{W\bibinitperiod}{Lingfeng}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=c9986341d1fe013420f1f7cc3ee2d7ba}{Devabhaktuni}{D\bibinitperiod}{Vijay}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4d5e284c6c4e6888fdc76d8ebfcb9099}
+      \strng{fullhash}{4d5e284c6c4e6888fdc76d8ebfcb9099}
+      \field{sortinit}{2}
+      \field{labeltitle}{Smart meters for power grid: Challenges, issues, advantages and status}
+      \field{abstract}{Smart meter is an advanced energy meter that measures consumption of electrical energy providing additional information compared to a conventional energy meter. Integration of smart meters into electricity grid involves implementation of a variety of techniques and software, depending on the features that the situation demands. Design of a smart meter depends on the requirements of the utility company as well as the customer. This paper discusses various features and technologies that can be integrated with a smart meter. In fact, deployment of smart meters needs proper selection and implementation of a communication network satisfying the security standards of smart grid communication. This paper outlines various issues and challenges involved in design, deployment, utilization, and maintenance of the smart meter infrastructure. In addition, several applications and advantages of smart meter, in the view of future electricity market are discussed in detail. This paper explains the importance of introducing smart meters in developing countries. In addition, the status of smart metering in various countries is also illustrated.}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{number}{6}
+      \field{title}{Smart meters for power grid: Challenges, issues, advantages and status}
+      \field{volume}{15}
+      \field{year}{2011}
+      \field{pages}{2736\bibrangedash 2742}
+      \verb{url}
+      \verb http://EconPapers.repec.org/RePEc:eee:rensus:v:15:y:2011:i:6:p:2736-2742
+      \endverb
+      \keyw{Power grid Metering infrastructure Communication technologies Smart grid Smart meters}
+    \endentry
+    \entry{government2011nist}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=1aebe6b32aed574fdcdfecfba4d54ebf}{Government}{G\bibinitperiod}{U.S.}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=1aebe6b32aed574fdcdfecfba4d54ebf}{Government}{G\bibinitperiod}{U.S.}{U\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {General Books}%
+      }
+      \strng{namehash}{1aebe6b32aed574fdcdfecfba4d54ebf}
+      \strng{fullhash}{1aebe6b32aed574fdcdfecfba4d54ebf}
+      \field{sortinit}{2}
+      \field{labeltitle}{Nist Framework and Roadmap for Smart Grid Interoperability Standards, Release 1 0}
+      \field{isbn}{9781234541682}
+      \field{title}{Nist Framework and Roadmap for Smart Grid Interoperability Standards, Release 1 0}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://books.google.pt/books?id=-C7UygAACAAJ
+      \endverb
+    \endentry
+    \entry{journals/corr/abs-1110-0725}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=06da185cff4d8b1de6f9a35bfc40171f}{Jesus}{J\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0bb140bbbc1d3ac7ec6a28bd9d506581}{Baquero}{B\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=846866cfed98e89c3995144153143928}{Almeida}{A\bibinitperiod}{Paulo\bibnamedelima Sérgio}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=06da185cff4d8b1de6f9a35bfc40171f}{Jesus}{J\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0bb140bbbc1d3ac7ec6a28bd9d506581}{Baquero}{B\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=846866cfed98e89c3995144153143928}{Almeida}{A\bibinitperiod}{Paulo\bibnamedelima Sérgio}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3a8ed6774360d0c606ae16f744a61e3b}
+      \strng{fullhash}{3a8ed6774360d0c606ae16f744a61e3b}
+      \field{sortinit}{2}
+      \field{labeltitle}{A Survey of Distributed Data Aggregation Algorithms}
+      \field{journaltitle}{CoRR}
+      \field{title}{A Survey of Distributed Data Aggregation Algorithms}
+      \field{volume}{abs/1110.0725}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/journals/corr/corr1110.html#abs-1110-0725
+      \endverb
+      \keyw{dblp}
+    \endentry
+    \entry{rottondi2012}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=33fa038b98d27872147963b66bd5866f}{Cristina\bibnamedelima Rottondi}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{Giacomo\bibnamedelima Verticale}{G\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=9fcc9a350575837a97a4619ab0dabafc}{Krauß}{K\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=33fa038b98d27872147963b66bd5866f}{Cristina\bibnamedelima Rottondi}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{Giacomo\bibnamedelima Verticale}{G\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=9fcc9a350575837a97a4619ab0dabafc}{Krauß}{K\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c493672621e8f2e56c22130af8fa3652}
+      \strng{fullhash}{c493672621e8f2e56c22130af8fa3652}
+      \field{sortinit}{2}
+      \field{labeltitle}{Implementation of a Protocol for Secure Distributed Aggregation of Smart Metering Data}
+      \field{booktitle}{International Conference on Smart Grid Technology, Economics and Policies (SG-TEP 2012)}
+      \field{month}{11}
+      \field{title}{Implementation of a Protocol for Secure Distributed Aggregation of Smart Metering Data}
+      \field{year}{2012}
+    \endentry
+    \entry{journals/comsur/FangMXY12}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=2fb7d4659413ca7a4db571f0c74b5053}{Fang}{F\bibinitperiod}{Xi}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2835bd4d2b356796febd0d33a123adf3}{Misra}{M\bibinitperiod}{Satyajayant}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ca0a85c430b7492e7fad120758dac8d3}{Xue}{X\bibinitperiod}{Guoliang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fd0ed4e886e34971e39101bd94cd6140}{Yang}{Y\bibinitperiod}{Dejun}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=2fb7d4659413ca7a4db571f0c74b5053}{Fang}{F\bibinitperiod}{Xi}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2835bd4d2b356796febd0d33a123adf3}{Misra}{M\bibinitperiod}{Satyajayant}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ca0a85c430b7492e7fad120758dac8d3}{Xue}{X\bibinitperiod}{Guoliang}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=fd0ed4e886e34971e39101bd94cd6140}{Yang}{Y\bibinitperiod}{Dejun}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{23a5ce7ee1533996cc94b22f9b8433b2}
+      \strng{fullhash}{2e91aa3912fae342efc6fd53c0428628}
+      \field{sortinit}{2}
+      \field{labeltitle}{Smart Grid - The New and Improved Power Grid: A Survey.}
+      \field{journaltitle}{IEEE Communications Surveys and Tutorials}
+      \field{number}{4}
+      \field{title}{Smart Grid - The New and Improved Power Grid: A Survey.}
+      \field{volume}{14}
+      \field{year}{2012}
+      \field{pages}{944\bibrangedash 980}
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/journals/comsur/comsur14.html#FangMXY12
+      \endverb
+      \keyw{dblp}
+    \endentry
+    \entry{journals/ijdsn/Liu12}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=232b388d77a5fe4d15fa502957d2bfb7}{Liu}{L\bibinitperiod}{Yide}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=232b388d77a5fe4d15fa502957d2bfb7}{Liu}{L\bibinitperiod}{Yide}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{232b388d77a5fe4d15fa502957d2bfb7}
+      \strng{fullhash}{232b388d77a5fe4d15fa502957d2bfb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Wireless Sensor Network Applications in Smart Grid: Recent Trends and Challenges.}
+      \field{journaltitle}{IJDSN}
+      \field{title}{Wireless Sensor Network Applications in Smart Grid: Recent Trends and Challenges.}
+      \field{volume}{2012}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/journals/ijdsn/ijdsn2012.html#Liu12
+      \endverb
+      \keyw{dblp}
+    \endentry
+    \entry{asad2013survey}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=f7735acb3ada6665be3176ffc614135a}{Asad}{A\bibinitperiod}{Omar}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=bc99820fae9fbf3c28a9aea97f2fad73}{Erol-Kantarci}{E\bibinithyphendelim K\bibinitperiod}{Melike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=157188d70e880af876cdad4f5bb1f335}{Mouftah}{M\bibinitperiod}{Hussein\bibnamedelima T}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=f7735acb3ada6665be3176ffc614135a}{Asad}{A\bibinitperiod}{Omar}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=bc99820fae9fbf3c28a9aea97f2fad73}{Erol-Kantarci}{E\bibinithyphendelim K\bibinitperiod}{Melike}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=157188d70e880af876cdad4f5bb1f335}{Mouftah}{M\bibinitperiod}{Hussein\bibnamedelima T}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{86c71f00327e17d392e9d1e4e823b02e}
+      \strng{fullhash}{86c71f00327e17d392e9d1e4e823b02e}
+      \field{sortinit}{2}
+      \field{labeltitle}{A Survey of Sensor Web Services for the Smart Grid}
+      \field{journaltitle}{Journal of Sensor and Actuator Networks}
+      \field{number}{1}
+      \field{title}{A Survey of Sensor Web Services for the Smart Grid}
+      \field{volume}{2}
+      \field{year}{2013}
+      \field{pages}{98\bibrangedash 108}
+    \endentry
+    \entry{journals/spm/ErkinTLP13}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=fb29c490cf7666247a33e6290f0d298e}{Erkin}{E\bibinitperiod}{Zekeriya}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=2e52e20232b7e127eb199cdb49ea3b24}{Troncoso-Pastoriza}{T\bibinithyphendelim P\bibinitperiod}{Juan\bibnamedelima Ramón}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=2220df63dad135f6f09ab2d1e3664fa2}{Lagendijk}{L\bibinitperiod}{Reginald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=f01fb2cf155d4f97148e9060ed2ac05a}{Pérez-González}{P\bibinithyphendelim G\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=fb29c490cf7666247a33e6290f0d298e}{Erkin}{E\bibinitperiod}{Zekeriya}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=2e52e20232b7e127eb199cdb49ea3b24}{Troncoso-Pastoriza}{T\bibinithyphendelim P\bibinitperiod}{Juan\bibnamedelima Ramón}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=2220df63dad135f6f09ab2d1e3664fa2}{Lagendijk}{L\bibinitperiod}{Reginald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=f01fb2cf155d4f97148e9060ed2ac05a}{Pérez-González}{P\bibinithyphendelim G\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{78c3784cd328c0685d1c963e5c2fd676}
+      \strng{fullhash}{4c4c15792093ba53331ece7b31731344}
+      \field{sortinit}{2}
+      \field{labeltitle}{Privacy-Preserving Data Aggregation in Smart Metering Systems: An Overview.}
+      \field{journaltitle}{IEEE Signal Process. Mag.}
+      \field{number}{2}
+      \field{title}{Privacy-Preserving Data Aggregation in Smart Metering Systems: An Overview.}
+      \field{volume}{30}
+      \field{year}{2013}
+      \field{pages}{75\bibrangedash 86}
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/journals/spm/spm30.html#ErkinTLP13
+      \endverb
+      \keyw{dblp}
+    \endentry
+    \entry{conf/isgt/GhoshPR13}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=60502d31a2bf8e1208e38cc1c4028f14}{Ghosh}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1fbb8e92e29aae0051563a30ff4eef43}{Pipattanasomporn}{P\bibinitperiod}{Manisa}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6df4eb9a207e59d008986da3dda165db}{Rahman}{R\bibinitperiod}{Saifur}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=60502d31a2bf8e1208e38cc1c4028f14}{Ghosh}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=1fbb8e92e29aae0051563a30ff4eef43}{Pipattanasomporn}{P\bibinitperiod}{Manisa}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6df4eb9a207e59d008986da3dda165db}{Rahman}{R\bibinitperiod}{Saifur}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{853495051707efbdafdfdadca06a34b3}
+      \strng{fullhash}{853495051707efbdafdfdadca06a34b3}
+      \field{sortinit}{2}
+      \field{labeltitle}{Technology deployment status of U.S. smart Grid projects - Electric distribution systems.}
+      \field{booktitle}{ISGT}
+      \field{isbn}{978-1-4673-4894-2}
+      \field{title}{Technology deployment status of U.S. smart Grid projects - Electric distribution systems.}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 8}
+      \verb{url}
+      \verb http://dblp.uni-trier.de/db/conf/isgt/isgt2013.html#GhoshPR13
+      \endverb
+      \keyw{dblp}
+    \endentry
+    \entry{INDIN2013aggregationPerformance}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=1e4838efcae28e9d989457efccea15a6}{Ilić}{I\bibinitperiod}{Dejan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=2f9c1a8a8f3667184ed88fce2f2e85d9}{Karnouskos}{K\bibinitperiod}{Stamatis}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4c8875126071ba366c141bcc193549ef}{Wilhelm}{W\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=1e4838efcae28e9d989457efccea15a6}{Ilić}{I\bibinitperiod}{Dejan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=2f9c1a8a8f3667184ed88fce2f2e85d9}{Karnouskos}{K\bibinitperiod}{Stamatis}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4c8875126071ba366c141bcc193549ef}{Wilhelm}{W\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a314e83435e54ee47ffb4aa52a26aed4}
+      \strng{fullhash}{a314e83435e54ee47ffb4aa52a26aed4}
+      \field{sortinit}{2}
+      \field{labeltitle}{A Comparative Analysis of Smart Metering Data Aggregation Performance}
+      \field{booktitle}{IEEE 11\textsuperscript{th} International Conference on Industrial Informatics (INDIN), Bochum, Germany}
+      \field{month}{07 29--31}
+      \field{title}{A Comparative Analysis of Smart Metering Data Aggregation Performance}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://diktio.dyndns.org/files/2013_INDIN_aggregationPerformance.pdf
+      \endverb
+    \endentry
+    \entry{DBLP:conf/isgteurope/SuzukiNYKMKA13}{inproceedings}{}
+      \name{labelname}{7}{}{%
+        {{hash=f6b1b283c67002a52bfae6db1e65a9bc}{Suzuki}{S\bibinitperiod}{Keita}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=2dcdadb3a07fa9ca00f03fc267b03bec}{Ninagawa}{N\bibinitperiod}{Chuzo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=19239b6c67756cee9b4f02b61b03d420}{Yoshida}{Y\bibinitperiod}{Hiroki}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=134e658d371396016ddc50f2af873378}{Kondo}{K\bibinitperiod}{Seiji}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2abf6193170bd825277767f36261613c}{Morikawa}{M\bibinitperiod}{Junji}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=537e17aaba7842b1ea2f5c8fb3006e21}{Kanbe}{K\bibinitperiod}{Taiga}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=05e3093c4a7465df54032b4f3005e956}{Aoki}{A\bibinitperiod}{Takao}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=f6b1b283c67002a52bfae6db1e65a9bc}{Suzuki}{S\bibinitperiod}{Keita}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=2dcdadb3a07fa9ca00f03fc267b03bec}{Ninagawa}{N\bibinitperiod}{Chuzo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=19239b6c67756cee9b4f02b61b03d420}{Yoshida}{Y\bibinitperiod}{Hiroki}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=134e658d371396016ddc50f2af873378}{Kondo}{K\bibinitperiod}{Seiji}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2abf6193170bd825277767f36261613c}{Morikawa}{M\bibinitperiod}{Junji}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=537e17aaba7842b1ea2f5c8fb3006e21}{Kanbe}{K\bibinitperiod}{Taiga}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=05e3093c4a7465df54032b4f3005e956}{Aoki}{A\bibinitperiod}{Takao}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6a0fd3f03c0adb8a8e4caeaa0f528e95}
+      \strng{fullhash}{8bc66d407c87e64eb5f4fa67df0dfa61}
+      \field{sortinit}{2}
+      \field{labeltitle}{Smart grid ADR aggregation delay model on large-scale distributed building HVAC facilities}
+      \field{booktitle}{ISGT Europe}
+      \field{title}{Smart grid ADR aggregation delay model on large-scale distributed building HVAC facilities}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 5}
+    \endentry
+    \entry{Ericsson_2}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e941cf8907743a6dac30f0ae6d32deda}{Ericsson}{E\bibinitperiod}{G.\bibnamedelimi N.}{G\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e941cf8907743a6dac30f0ae6d32deda}{Ericsson}{E\bibinitperiod}{G.\bibnamedelimi N.}{G\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e941cf8907743a6dac30f0ae6d32deda}
+      \strng{fullhash}{e941cf8907743a6dac30f0ae6d32deda}
+      \field{sortinit}{E}
+      \field{labeltitle}{{Cyber Security and Power System Communication—Essential Parts of a Smart Grid Infrastructure}}
+      \field{abstract}{{AThe introduction of ” smart grid” solutions imposes that cyber security and power system communication systems must be dealt with extensively. These parts together are essential for proper electricity transmission, where the information infrastructure is critical. The development of communication capabilities, moving power control systems from ” islands of automation” to totally integrated computer environments, have opened up new possibilities and vulnerabilities. Since several power control systems have been procured with ” openness” requirements, cyber security threats become evident. For refurbishment of a SCADA/EMS system, a separation of the operational and administrative computer systems must be obtained. The paper treats cyber security issues, and it highlights access points in a substation. Also, information security domain modeling is treated. Cyber security issues are important for ” smart grid” solutions. Broadband communications open up for smart meters, and the increasing use of wind power requires a ” smart grid system”.}}
+      \field{issn}{0885-8977}
+      \field{journaltitle}{IEEE Transactions on Power Delivery}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{{Cyber Security and Power System Communication—Essential Parts of a Smart Grid Infrastructure}}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{pages}{1501\bibrangedash 1507}
+      \verb{doi}
+      \verb 10.1109/MSP.2010.49
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/MSP.2010.49
+      \endverb
+      \keyw{security,smart\_grid}
+    \endentry
+  \endsortlist
+  \missing{e}
+\endrefsection
+\endinput
+

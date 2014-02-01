@@ -1,0 +1,347 @@
+%% ---------------------------------------------------------------------------
+%% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
+%% ---------------------------------------------------------------------------
+% https://www.sharelatex.com/templates/thesis/graduate-thesis/
+% Set up the document
+% Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+% use the draft option to print overfull hbox
+\documentclass[a4paper, 11pt, oneside]{Thesis}
+% TODO: change to twosize when done
+%\documentclass[a4paper, 11pt, twoside]{Thesis}
+% Location of the graphics files (set up for graphics to be in PDF format)
+\graphicspath{Figures/}
+
+% Include any extra LaTeX packages required
+% Use biblatex to bibliography management
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=ynt,
+  hyperref=true,
+  maxbibnames=15,
+  maxcitenames=3,
+]{biblatex}
+\addbibresource{Bibliography.bib}
+% Needed for the "comment" environment to make LaTeX comments
+\usepackage{verbatim}
+% Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
+\usepackage{vector}
+% Todos
+\usepackage{todonotes}
+% set default todo style to fancyline
+\presetkeys{todonotes}{fancyline,size=\tiny}{}
+% Todonotes wrongly placed in the margin
+%TODO: remove this by the end?
+\setlength{\marginparwidth}{2cm}
+
+% indent description lists
+%\usepackage{enumitem}
+%\setdescription{leftmargin=\parindent,labelindent=\parindent}
+
+%\usepackage[utf8]{inputenc}
+% Colour hyperlinks in blue, but this can be distracting if there are many
+% links.
+\hypersetup{urlcolor=blue, colorlinks=false}
+% show frames around the margins
+%\usepackage[showframe,pass]{geometry}
+% nomenclature and glossary
+\usepackage[norefpage]{nomencl}
+\renewcommand{\nomname}{Abbreviations}
+% Abbreviation in bold
+\renewcommand{\nomlabel}[1]{\textbf{#1}}
+% no extra skip between entries
+\setlength{\nomitemsep}{-\parsep}
+% costumize the rightmark and leftmark from fancyhdr
+\renewcommand{\chaptermark}[1]{ \markboth{\MakeUppercase{\thechapter.\ #1}}{}}
+\renewcommand{\sectionmark}[1]{ \markright{\thesection.\ #1}{ }}
+
+\makenomenclature
+
+\usepackage{comment}
+
+
+% gantt diagram
+\usepackage{pgfgantt}
+
+% include new commands
+\usepackage{Commands}
+%% ---------------------------------------------------------------------------
+\begin{document}
+% Begin Roman style (i, ii, iii, iv...) page numbering
+\frontmatter
+
+% Set up the Title Page
+\title  {Distributed Aggregation Algorithms in Smart Meters
+        \\[1.5cm]\large{Pre-Dissertation Report}}
+\authors  {\texorpdfstring
+            {\href{mailto:rafael.remondes@gmail.com}{Telmo Rafael Rodriges Remondes}}
+            {Rafael Remondes}
+            }
+% Do not change this here, instead these must be set in the "Thesis.cls" file,
+% please look through it instead
+\addresses  {\groupname\\\deptname\\\univname}
+\date       {\today}
+\subject    {}
+\keywords   {}
+
+\maketitle
+%% ---------------------------------------------------------------------------
+
+% It is better to have smaller font and larger line spacing than the other way
+% round
+\setstretch{1.5}
+
+% Define the page headers using the FancyHdr package and set up for one-sided
+% printing
+% Clears all page headers and footers
+\fancyhead{}
+% Sets the right side header to show the page number
+\rhead{\thepage}
+% Clears the left side page header
+\lhead{}
+
+% Finally, use the "fancy" page style to implement the FancyHdr headers
+\pagestyle{fancy}
+
+%% ---------------------------------------------------------------------------
+%% Declaration Page required for the Thesis, your institution may give you
+%% a different text to place here
+%\Declaration{
+%
+%% Add a gap in the Contents, for aesthetics
+%\addtocontents{toc}{\vspace{1em}}
+%
+%I, AUTHOR NAME, declare that this thesis titled, `THESIS TITLE' and the work
+%presented in it are my own. I confirm that:
+%
+%\begin{itemize} 
+%\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in
+%  candidature for a research degree at this University.
+% 
+%\item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been
+%  submitted for a degree or any other qualification at this University or any
+%  other institution, this has been clearly stated.
+% 
+%\item[\tiny{$\blacksquare$}] Where I have consulted the published work of
+%  others, this is always clearly attributed.
+% 
+%\item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the
+%  source is always given. With the exception of such quotations, this thesis is
+%  entirely my own work.
+% 
+%\item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+% 
+%\item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself
+%  jointly with others, I have made clear exactly what was done by others and
+%  what I have contributed myself.
+%\\
+%\end{itemize}
+% 
+% 
+%Signed:\\
+%% This prints a line for the signature
+%\rule[1em]{25em}{0.5pt}
+% 
+%Date:\\
+%% This prints a line to write the date
+%\rule[1em]{25em}{0.5pt}
+%}
+%% Declaration ended, now start a new page
+%\clearpage
+%
+%% ---------------------------------------------------------------------------
+% The "Funny Quote Page"
+% No headers or footers for the following pages
+%\pagestyle{empty}
+%
+%\null\vfill
+%% Now comes the "Funny Quote", written in italics
+%\textit{``Write a funny quote here.''}
+%
+%\begin{flushright}
+%If the quote is taken from someone, their name goes here
+%\end{flushright}
+%
+%\vfill\vfill\vfill\vfill\vfill\vfill\null
+%\clearpage  % Funny Quote page ended, start a new page
+%% ---------------------------------------------------------------------------
+
+% The Abstract Page
+% Add the "Abstract" page entry to the Contents
+\addtotoc{Abstract}
+\abstract{
+% Add a gap in the Contents, for aesthetics
+\addtocontents{toc}{\vspace{1em}}
+
+\input{Chapters/Abstract.tex}
+
+}
+
+% Abstract ended, start a new page
+\clearpage
+%% ---------------------------------------------------------------------------
+
+%% Reset the line-spacing to 1.5 for body text (if it has changed)
+%\setstretch{1.5}
+%
+%% The Acknowledgements page, for thanking everyone
+%\acknowledgements{
+%% Add a gap in the Contents, for aesthetics
+%\addtocontents{toc}{\vspace{1em}}
+%
+%The acknowledgements and the people to thank go here, don't forget to include
+%your project advisor\ldots
+%
+%}
+%% End of the Acknowledgements
+%\clearpage
+%% ---------------------------------------------------------------------------
+
+% The page style headers have been "empty" all this time, now use the "fancy"
+% headers as defined before to bring them back
+\pagestyle{fancy}
+
+%% ---------------------------------------------------------------------------
+% Set the left side page header to "Contents"
+\lhead{\emph{Contents}}
+% Write out the Table of Contents
+\tableofcontents
+
+%% ---------------------------------------------------------------------------
+% Set the left side page header to "List if Figures"
+\lhead{\emph{List of Figures}}
+%% Write out the List of Figures
+\listoffigures
+
+%% ---------------------------------------------------------------------------
+% Set the left side page header to "List of Tables"
+%\lhead{\emph{List of Tables}}
+%% Write out the List of Tables
+%\listoftables
+
+%% ---------------------------------------------------------------------------
+% Set the line spacing to 1.5, this makes the following tables easier to read
+\setstretch{1.5}
+% Start a new page
+\clearpage
+% Set the left side page header to "Abbreviations"
+\lhead{\emph{Abbreviations}}
+% Include a list of Abbreviations (a table of two columns)
+%\listofsymbols{ll}
+%{
+% \textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
+
+%}
+\printnomenclature
+
+%% ---------------------------------------------------------------------------
+%% Start a new page
+%\clearpage
+%% Set the left side page header to "Physical Constants"
+%\lhead{\emph{Physical Constants}}
+%% Include a list of Physical Constants (a four column table)
+%\listofconstants{lrcl}
+%{
+%% Constant Name & Symbol & = & Constant Value (with units) \\
+%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\
+%\mbox{ms}^{-\mbox{s}}$ (exact)\\
+%
+%}
+
+%% ---------------------------------------------------------------------------
+%% Start a new page
+%\clearpage
+%% Set the left side page header to "Symbols"
+%\lhead{\emph{Symbols}}
+%% Include a list of Symbols (a three column table)
+%\listofnomenclature{lll}
+%{
+%  % symbol & name & unit \\
+%  $a$ & distance & m \\
+%  $P$ & power & W (Js$^{-1}$) \\
+%  & & \\ % Gap to separate the Roman symbols from the Greek
+%  $\omega$ & angular frequency & rads$^{-1}$ \\
+%}
+%% ---------------------------------------------------------------------------
+%% End of the pre-able, contents and lists of things
+%% Begin the Dedication page
+%\clearpage
+%
+%% Return the line spacing back to 1.5
+%\setstretch{1.5}
+%
+%% Page style needs to be empty for this page
+%\pagestyle{empty}
+%\dedicatory{For/Dedicated to/To my\ldots}
+%
+%% Add a gap in the Contents, for aesthetics
+%\addtocontents{toc}{\vspace{2em}}
+
+%% ---------------------------------------------------------------------------
+% Begin normal, numeric (1,2,3...) page numbering
+\mainmatter
+
+% Return the page headers back to the "fancy" style
+\pagestyle{fancy}
+% Clears all page headers and footers
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\emph{\leftmark}}
+\fancyhead[LO]{\emph{\rightmark}}
+% Include the chapters of the thesis, as separate files
+% Just uncomment the lines as you write the chapters
+
+\listoftodos
+
+\input{Chapters/intro} % Introduction
+
+\input{Chapters/sg} %
+\input{Chapters/wsn}%
+\input{Chapters/dda}%
+\input{Chapters/conc} % 
+
+%\input{Chapters/Chapter4} % 
+
+%\input{Chapters/Chapter5} % 
+
+%\input{Chapters/Chapter6} % Results and Discussion
+
+%\input{Chapters/Chapter7} % Conclusion
+
+%% ---------------------------------------------------------------------------
+% Now begin the Appendices, including them as separate files
+
+% Add a gap in the Contents, for aesthetics
+\addtocontents{toc}{\vspace{2em}}
+
+% Cue to tell LaTeX that the following 'chapters' are Appendices
+\appendix
+
+%\input{Appendices/AppendixA} % Appendix Title
+
+%\input{Appendices/AppendixB} % Appendix Title
+
+%\input{Appendices/AppendixC} % Appendix Title
+
+% Add a gap in the Contents, for aesthetics
+\addtocontents{toc}{\vspace{2em}}
+\backmatter
+
+%% ---------------------------------------------------------------------------
+\label{Bibliography}
+% Change the left side page header to "Bibliography"
+\lhead{\emph{Bibliography}}
+% Use the "unsrtnat" BibTeX style for formatting the Bibliography
+%\bibliographystyle{unsrtnat}
+% Show all references present in the Bibliography file
+%\nocite{*}
+% The references (bibliography) information are stored in the file named
+% "Bibliography.bib"
+%\bibliography{Bibliography}
+
+\printbibliography
+
+% The End
+\end{document}
+%% ---------------------------------------------------------------------------

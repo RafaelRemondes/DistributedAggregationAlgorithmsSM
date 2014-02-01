@@ -1,0 +1,51 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{i}{dummy.1}
+\defcounter {refsection}{0}\relax 
+\vspace {1em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{v}{dummy.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Objectives}{3}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Motivation}{4}{section.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Document structure}{4}{section.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Smart Grid}{5}{chapter.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Smart Grid Model}{6}{section.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Smart Information SubSystem}{7}{section.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Smart Grid Communication}{7}{section.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Smart Meters}{8}{section.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Wireless Sensor Networks}{10}{chapter.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}WSN and The Smart Grid}{11}{section.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Distributed Data Aggregation}{12}{chapter.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Definition}{12}{section.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Decomposable functions}{12}{subsection.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Duplicate sensitiveness and idempotence}{14}{subsection.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Distributed Data Aggregation Algorithms}{14}{section.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}WSN Data Aggregation}{14}{section.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Smart Metering Aggregation Model}{15}{section.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{17}{chapter.40}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{18}{dummy.42}

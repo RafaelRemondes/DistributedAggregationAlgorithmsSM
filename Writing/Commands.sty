@@ -1,0 +1,76 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Commands}
+
+% read this about xspace
+% Drawbacks: http://tex.stackexchange.com/q/86565
+% Space after latex commands: http://tex.stackexchange.com/q/31091
+\RequirePackage{xspace}
+
+% new command to declare new abbreviations
+\newcommand*{\nom}[2]{#1\nomenclature{#1}{#2}}
+
+% automatically insert Figure,Table, etc when referencing
+\newcommand*{\reffigure}[1]{Figure~\ref{#1}\xspace}
+\newcommand*{\reftable}[1]{Table~\ref{#1}\xspace}
+\newcommand*{\refdef}[1]{Definition~\ref{#1}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MATH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% newcommand vs declaremathoperator: http://tex.stackexchange.com/a/67529
+\newcommand*{\bbZ}{\mathbb{Z}}
+\newcommand*{\bbF}{\mathbb{F}}
+\newcommand*{\bbN}{\mathbb{N}}
+\newcommand*{\bbR}{\mathbb{R}}
+\newcommand*{\bbG}{\mathbb{G}}
+
+\newcommand*{\calP}{\mathcal{P}}
+\newcommand*{\calM}{\mathcal{M}}
+\newcommand*{\calF}{\mathcal{F}}
+\newcommand*{\calO}{\mathcal{O}}
+\newcommand*{\calA}{\mathcal{A}}
+\newcommand*{\calI}{\mathcal{I}}
+
+\newcommand*{\equals}{\overset{?}{=}}
+
+\DeclareMathOperator{\poly}{\mathsf{poly}}
+
+% \len is printed as \text in math mode
+\DeclareMathOperator{\len}{len}
+\DeclareMathOperator{\negl}{negl}
+\DeclareMathOperator{\id}{id}
+
+% as seen here: https://en.wikibooks.org/wiki/TeX/ifmmode
+\newcommand*{\SansSerif}[1]{%
+  \ifmmode %
+    \mathsf{#1} %
+  \else %
+    \textsf{#1}\xspace %
+  \fi%
+}
+% typeset algorithms
+\newcommand*{\KeyGen}{\SansSerif{KeyGen}}
+\newcommand*{\Sign}{\SansSerif{Sign}}
+\newcommand*{\Auth}{\SansSerif{Auth}}
+\newcommand*{\Vrfy}{\SansSerif{Vrfy}}
+\newcommand*{\Eval}{\SansSerif{Eval}}
+\newcommand*{\GateEval}{\SansSerif{GateEval}}
+
+\newcommand*{\ek}{\SansSerif{ek}}
+\newcommand*{\pk}{\SansSerif{pk}}
+\newcommand*{\sk}{\SansSerif{sk}}
+
+\newcommand*{\interval}[2]{#1, \dotsc, #2}
+% receives a variable, a start and an end number, and prints
+% variable_start, \dotsc, variable_end
+\newcommand*{\setSpace}[3]{#1_{#2}, \dotsc, #1_{#3}}
+\newcommand*{\functionSpace}[4]{#1_{#2}(#4), \dotsc, #1_{#3}(#4)}
+\newcommand*{\tauSpace}[2]{\setSpace{\tau}{#1}{#2}}
+\newcommand*{\mSpace}[2]{\setSpace{m}{#1}{#2}}
+\newcommand*{\sigmaSpace}[2]{\setSpace{\sigma}{#1}{#2}}
+\newcommand*{\fSpace}[2]{\setSpace{f}{#1}{#2}}
+
+% receives a function name, a function input and output space
+\newcommand*{\function}[3]{#1\colon #2 \rightarrow #3}
+
+\endinput

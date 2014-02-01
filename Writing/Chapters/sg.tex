@@ -1,0 +1,55 @@
+\chapter{Smart Grid}
+\todo{Correct definition?}
+The \textit{Smart Grid} (SG) is a new concept of grid which introduces new technologies into the common power system. They enable power grids to become more efficient, integrate other sources of energy than traditional ones such as renewable energies and increase the overall management performance By using modern information technologies, the SG is capable of delivering power in more efficient way and responding to wide ranging condition an events \cite{journals/comsur/FangMXY12}.
+There are several definitions for the SG among the literature. For example, Xi Fan \textit{et al}\cite{journals/comsur/FangMXY12} states that SG can be regarded as an electric system that uses information, two-way, cyber-secure communication technologies and computational intelligence in a integrated fashion to achieve a clean, safe, secure, reliable, resilient, efficient and sustainable system. S. Gosh \textit{et al} \cite{conf/isgt/GhoshPR13} considers the SG as a platform that embraces several multidisciplinary concepts towards computerization of electrical power grids. The common concept over the literature is that SG main goal is to integrate several components, traditional and new, to achieve better performance, interoperability, energy management and sustainability in long term. \\
+SG creates an environment that introduces a converge between the infrastructure of generation, transmission, distribution, energy, information technology and digital communication infrastructure that enables the exchange of information and control action among the various segments of the power grid.\\
+As is it possible to notice, these integration means that the SG itself is a very complicated system. Achieving the mentioned goals is a complex task. Due to is variety of problems and challenges, most of the proposed solution and studies regarding the SG focus in some specific aspects. 
+\section{Smart Grid Model}
+\todo{model of all grids?}
+ The components in a traditional grid go one way, contrary to what happens in SG where all the flows of electricity goes two-way.  So the role of each component are different, for example a consumer can both consume energy from the grid and provide it too considering that he has a device that produces renewable power. The NIST report \cite{government2011nist} proposes a conceptual model providing the main actors towards the SG.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\textwidth]{/Users/rafaelremondes/UM/MEI/Thesis/Writing/Images/NIST_model}
+\caption{\label{fig:NIST_model} NIST Conceptual Model for SG}
+\end{figure}
+Costumers, the end users of electricity, Markets, Services Providers, Electricity Companies, Operations, managers of the movement of electricity, Bulk Generation, Generation Centers, Transmission and Distribution. 
+In \cite{journals/comsur/FangMXY12} provides a more technical approach where the SG is separated into three major subsystems:
+\begin{itemize}
+\item \textit{Smart infrastructure system} embraces the energy, information and communication infrastructure. The energy subsystem is responsible for advanced electricity generation, delivery and consumption. The information subsystems are responsible for information metering, monitoring and management in the context of the SG. Finally, the communication subsystem is responsible for the communication among the various components and also its connectivity.   
+\item \textit{Smart management system} Provides advanced management and control services and functionalities, \cite{journals/comsur/FangMXY12} considers the key reason why SG can revolutionize the grid  
+Most of the new grid goals ate related to energy efficiency improvement, supply and demand balance, emission control etc. and thats the scope of problems the management systems tries to achieve.
+\item \textit{Smart protection system} Provides advanced grid reliability analysis, failure protection, security and privacy protection services.
+ \end{itemize}
+The focus of this work is in the smart information subsystem. We are interested in the information that comes from the smart meters. In the next section is detailed the SG information subsystem.
+\section{Smart Information SubSystem}
+This part of the SG refers to all the information that is collected by sensing the consumer consumption and its management . The data collected is often used for billing, grid status monitoring and user appliance control \cite{journals/comsur/FangMXY12}. Then, it is aggregated and \textit{smart management} is ideally performed on it.\\
+\todo{Enough information regarding the information susbsystem?}
+An important concept in the information subsystem sensing is \textit{Smart Metering}. It is basically a mechanism that sense and monitor consumption data from end users. In the next chapter we take a look at the main device called the smart meter.\\
+Other aspect is the \textit{Smart Monitoring and Measurement} which can be approached by either \textit{sensor} or \textit{phasor measurement units}(PMU). \textit{Sensors} are used for detecting failures, tower collapses, hotspots and extreme mechanical conditions. They can also provide real-time diagnose of the grid status. PMU's are devices measures the electrical waves on a electrical grid to determinate the health   of the system.
+The management refers to all the information analysis and modeling, integration and optimization.\\
+In this specific part of SG there are several areas of research that represent a all new set of opportunities.
+
+
+\section{Smart Grid Communication}
+The most important question in the communication is what network and communication should be used\cite{journals/comsur/FangMXY12}. Since there is no standard communication system in SG, several solutions were proposued.\\
+There are two types of communication, wired and wireless communication. Wired communication are harder to implement than wireless communication, and for that reason, wired are more expensive to deploy.  Wireless communication are also more suitable for remote end applications \cite{parikh2010opportunities}.\\
+There are several wireless possibilities for communication.\\
+\begin{itemize}
+  \item \textit{Wireless Mesh Network} (WMN) is a communication network made up for radio nodes organized in a mesh topology\cite{journals/comsur/FangMXY12}. Increases reliability and automatic network connectivity and has large coverage and high data rate.
+\item \textit{Cellular Communication Systems}  GSM and 3G. Useful in case of low computation power devices such as the meters. It it quick and low-cost to obtain data communications coverage over a large geographic area \cite{akyol2010survey}. There several solutions that uses a Short Message Service communication to send the meters data.
+\item \text{Wireless Communication based on 802.15.4} ZigBee is a wireless communication that is recommended to be used in SG considering the IEEE 802.15.4 protocol stack\cite{parikh2010opportunities}. ZigBee is designed for radio-frequency applications that require low data rate, long battery life, and secure networking. Selected as the communication technology for the smart metering devices\cite{farhangi2010path} because it provides a standardized platform for exchanging data between smart metering devices and appliances located on costumer premises\cite{journals/comsur/FangMXY12}. WirelessHART and ISA100.11a are other examples of wireless communications based on the IEEE 802.15.4 protocol.
+\end{itemize}
+Other examples of wireless communication are stallite communication, cognitive radio and  microwave communications.
+Fiber-optic Communications and Power-line Communications are some of the wired communication possibilities. Power-line communication has the advantage of been already installed, so the cost of deployment is way less than other wired solution, but has also big security disadvantages. Fiber-Optic has the advantage of being fast and more secure but is very expensive to deploy.\\
+
+
+
+%%%%%SMART METERS-----------------%
+
+\section{Smart Meters}
+Smart meters are devices that sense the energy consumption. They are installed in the costumer side , in households ou industrial facilities, depending on the type of costumer. Playing a major role in the information subsystem, smart meters present a number of challenges in sensing, analyzing, and communication\cite{journals/spm/ErkinTLP13}.\\
+As referred, the main function of a smart meter, and all meters, is sense the consumption in the costumer side. Plus that, this smart devices also have communication capabilities. So, every pre-defined period of time, they communicate the sensed consumption to a central device that aggregates the data. This feature, allows a company to remotely read the consumers' consumption at each household, without the need to actually go to the premises and without notifying the costumers\cite{Ericsson_2}. Jorge Vasconcelos \cite[RePEc:erp:euirsc:p0193] enlightens in his work the potential benefits of the smart meters, for  example the potential benefits for customers are customer awareness and energy saving, more accurate meter reading, billing, better service quality, greater tariff variety and flexibility, improved conditions for vulnerable customers, easier comparability of offers and it is easier to change supplier.\\
+Privacy and security are important concerns when dealing with the sensed information. Several privacy issues appeared considering that external parties access the consumer energy consumption. Some are authorized parties, but if unauthorized entities access this data, some security and privacy dangers could appear. For example, by analyzing the data, could determinate which devices are plugged in some specific time, giving for example information about if there is people in home or note. Many works propose solution to securely store this sensible information. Although privacy and security are out of the scope of this work, it is important to mention this point.\\
+The smart meters, as any desirable component of the SG, enable two way communication.
+
+\todo{Smart Grid topology?}
