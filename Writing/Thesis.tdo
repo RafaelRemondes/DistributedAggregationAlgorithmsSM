@@ -1,16 +1,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {todo}{Are the Objectives clear enough?}{3}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {todo}{maybe some more motivation}{4}{section*.12}
+\contentsline {todo}{Maybe some more motivation}{4}{section*.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {todo}{review the chapters ref}{4}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {todo}{Review this intro}{11}{section*.23}
+\contentsline {todo}{Correct definition?}{5}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {todo}{Is the concepto of a AMI being a specific case of WSN correct?}{11}{section*.24}
+\contentsline {todo}{model of all grids?}{5}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {todo}{Correct definition? Need to specify more why decomposable functions could be computed in a parallel or distributed way}{12}{section*.29}
+\contentsline {todo}{Enough information regarding the information susbsystem?}{7}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {todo}{Review DDA, Write the algorithms or just the type?}{14}{section*.35}
+\contentsline {todo}{Smart Grid topology?}{9}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {todo}{What to write? Status of the work?}{17}{section*.41}
+\contentsline {todo}{Review this intro}{11}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{Is the concept of a AMI being a specific case of WSN correct?}{11}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{dont understand this assertion, in WSN is possible for a sensor to change the position?}{11}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{Correct definition? Need to specify more why decomposable functions could be computed in a parallel or distributed way}{12}{section*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{Review DDA, Write the algorithms or just the type?}{14}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{resume this shitty algorithm}{15}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{resume other approachs}{15}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{Ring Based Approachs, Flooding and Randomized necessary or relevant?, IDEA: state the hierarchy and gossip approach and then the hybrid aproach combining the two}{15}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{review this definition, too much alike}{16}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{specify the mass conservation concept?}{17}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{finish this shitty algorithm}{18}{section*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {todo}{What to write? Status of the work?}{22}{section*.61}

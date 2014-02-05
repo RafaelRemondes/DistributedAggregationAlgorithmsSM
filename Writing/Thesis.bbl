@@ -19,6 +19,104 @@
 
 \refsection{0}
   \sortlist{entry}{ynt}
+    \entry{madden2002tag}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8b530348ffa5a0cfb0b9827772f501e9}{Madden}{M\bibinitperiod}{Samuel}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=89363e5fed5b1875eb4a68e742544d13}{Franklin}{F\bibinitperiod}{Michael\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=aaf854b1baf392d9c75d9d57a264b80b}{Hellerstein}{H\bibinitperiod}{Joseph\bibnamedelima M}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=fa4e6641f1d25925b83ff129ff833526}{Hong}{H\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8b530348ffa5a0cfb0b9827772f501e9}{Madden}{M\bibinitperiod}{Samuel}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=89363e5fed5b1875eb4a68e742544d13}{Franklin}{F\bibinitperiod}{Michael\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=aaf854b1baf392d9c75d9d57a264b80b}{Hellerstein}{H\bibinitperiod}{Joseph\bibnamedelima M}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=fa4e6641f1d25925b83ff129ff833526}{Hong}{H\bibinitperiod}{Wei}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{eb1897e1d02de11a2e3626e66a6d0014}
+      \strng{fullhash}{c8341989cceb23cbe3bd5c1037937aeb}
+      \field{sortinit}{2}
+      \field{labeltitle}{TAG: A tiny aggregation service for ad-hoc sensor networks}
+      \field{journaltitle}{ACM SIGOPS Operating Systems Review}
+      \field{number}{SI}
+      \field{title}{TAG: A tiny aggregation service for ad-hoc sensor networks}
+      \field{volume}{36}
+      \field{year}{2002}
+      \field{pages}{131\bibrangedash 146}
+    \endentry
+    \entry{horowitz2003estimating}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=836e992ce512f2b61d5d2a8ffc6fa119}{Horowitz}{H\bibinitperiod}{Keren}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=adef420ee25e4cdaac9d926cbe70b98d}{Malkhi}{M\bibinitperiod}{Dahlia}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=836e992ce512f2b61d5d2a8ffc6fa119}{Horowitz}{H\bibinitperiod}{Keren}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=adef420ee25e4cdaac9d926cbe70b98d}{Malkhi}{M\bibinitperiod}{Dahlia}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{48f921599a5844deb2f8a13fb64f2410}
+      \strng{fullhash}{48f921599a5844deb2f8a13fb64f2410}
+      \field{sortinit}{2}
+      \field{labeltitle}{Estimating network size from local information}
+      \field{journaltitle}{Information Processing Letters}
+      \field{number}{5}
+      \field{title}{Estimating network size from local information}
+      \field{volume}{88}
+      \field{year}{2003}
+      \field{pages}{237\bibrangedash 243}
+    \endentry
+    \entry{kempe2003gossip}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=548c8439009be7e3768757c6ff4fc6d3}{Kempe}{K\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fd5e562d0d4fee2fcdff1819a3ddfdae}{Dobra}{D\bibinitperiod}{Alin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=89173e109d33053942397c24c048f5c2}{Gehrke}{G\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=548c8439009be7e3768757c6ff4fc6d3}{Kempe}{K\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fd5e562d0d4fee2fcdff1819a3ddfdae}{Dobra}{D\bibinitperiod}{Alin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=89173e109d33053942397c24c048f5c2}{Gehrke}{G\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0089d97ec8e449e2be5876cfe570f081}
+      \strng{fullhash}{0089d97ec8e449e2be5876cfe570f081}
+      \field{sortinit}{2}
+      \field{labeltitle}{Gossip-based computation of aggregate information}
+      \field{booktitle}{Foundations of Computer Science, 2003. Proceedings. 44th Annual IEEE Symposium on}
+      \field{title}{Gossip-based computation of aggregate information}
+      \field{year}{2003}
+      \field{pages}{482\bibrangedash 491}
+    \endentry
+    \entry{considine2004approximate}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=c0f1db66c95056438ca59bd0a061a0f2}{Considine}{C\bibinitperiod}{Jeffrey}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=65dc7c16174f4ebc47ccdc01e74939f2}{Li}{L\bibinitperiod}{Feifei}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0967eea48899f9efc7dd70b6dcfa5376}{Kollios}{K\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8f4b7c24eac5e6e3afd3c1caefae4881}{Byers}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=c0f1db66c95056438ca59bd0a061a0f2}{Considine}{C\bibinitperiod}{Jeffrey}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=65dc7c16174f4ebc47ccdc01e74939f2}{Li}{L\bibinitperiod}{Feifei}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0967eea48899f9efc7dd70b6dcfa5376}{Kollios}{K\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8f4b7c24eac5e6e3afd3c1caefae4881}{Byers}{B\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8e884a24647585052ddd0049dbc8d476}
+      \strng{fullhash}{b56ed6146815816d0f2c95ec0f142a5b}
+      \field{sortinit}{2}
+      \field{labeltitle}{Approximate aggregation techniques for sensor databases}
+      \field{booktitle}{Data Engineering, 2004. Proceedings. 20th International Conference on}
+      \field{title}{Approximate aggregation techniques for sensor databases}
+      \field{year}{2004}
+      \field{pages}{449\bibrangedash 460}
+    \endentry
     \entry{Girao2004c}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=232940370f97e923abd70ea276d3ea9d}{Girao}{G\bibinitperiod}{Joao}{J\bibinitperiod}{}{}{}{}}%
@@ -53,6 +151,52 @@
       \verb http://www.ece.cmu.edu/~adrian/wise2004/
       \endverb
       \keyw{Data Energy Homomorphism Privacy Wireless aggregation,consumption,encryption,networks,sensor}
+    \endentry
+    \entry{jelasity2004epidemic}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=2373df2581f0556778d5dd54d705d300}{Jelasity}{J\bibinitperiod}{Márk}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1a3f8ab08478a43150277c1aee0ca9ea}{Montresor}{M\bibinitperiod}{Alberto}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=2373df2581f0556778d5dd54d705d300}{Jelasity}{J\bibinitperiod}{Márk}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1a3f8ab08478a43150277c1aee0ca9ea}{Montresor}{M\bibinitperiod}{Alberto}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{893586def6c81208c957f04b423a88e5}
+      \strng{fullhash}{893586def6c81208c957f04b423a88e5}
+      \field{sortinit}{2}
+      \field{labeltitle}{Epidemic-style proactive aggregation in large overlay networks}
+      \field{booktitle}{Distributed Computing Systems, 2004. Proceedings. 24th International Conference on}
+      \field{title}{Epidemic-style proactive aggregation in large overlay networks}
+      \field{year}{2004}
+      \field{pages}{102\bibrangedash 109}
+    \endentry
+    \entry{shrivastava2004medians}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=e001346eaa5b434d2f4a799442134a17}{Shrivastava}{S\bibinitperiod}{Nisheeth}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=1e441ea474ed474e8f8129d5231eea87}{Buragohain}{B\bibinitperiod}{Chiranjeeb}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d52a30445cfae3ca4f61faee6dd6c5d3}{Agrawal}{A\bibinitperiod}{Divyakant}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=bfc7c4a61967484cf7b20777bf74e5c1}{Suri}{S\bibinitperiod}{Subhash}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=e001346eaa5b434d2f4a799442134a17}{Shrivastava}{S\bibinitperiod}{Nisheeth}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=1e441ea474ed474e8f8129d5231eea87}{Buragohain}{B\bibinitperiod}{Chiranjeeb}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d52a30445cfae3ca4f61faee6dd6c5d3}{Agrawal}{A\bibinitperiod}{Divyakant}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=bfc7c4a61967484cf7b20777bf74e5c1}{Suri}{S\bibinitperiod}{Subhash}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{b51a3881e81b7d26b1fd7306d5c58569}
+      \strng{fullhash}{9d92236f6f77880ba7f5d0cf152e456b}
+      \field{sortinit}{2}
+      \field{labeltitle}{Medians and beyond: new aggregation techniques for sensor networks}
+      \field{booktitle}{Proceedings of the 2nd international conference on Embedded networked sensor systems}
+      \field{title}{Medians and beyond: new aggregation techniques for sensor networks}
+      \field{year}{2004}
+      \field{pages}{239\bibrangedash 249}
     \endentry
     \entry{Castelluccia05efficientaggregation}{inproceedings}{}
       \name{labelname}{1}{}{%
@@ -96,6 +240,33 @@
       \field{year}{2005}
       \field{pages}{109\bibrangedash 117}
     \endentry
+    \entry{birk2006veracity}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=2e375612990b4b849f0548ebd4f1d757}{Birk}{B\bibinitperiod}{Yitzhak}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=491309738821a4a5f5459afeb8c561ee}{Keidar}{K\bibinitperiod}{Idit}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=94b3bc767db4d2a63b4d3ed369c68000}{Liss}{L\bibinitperiod}{Liran}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=d91dea204b6a8eba92f8f79d6f564a2d}{Schuster}{S\bibinitperiod}{Assaf}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=9b240f901023cd661da8f13e26e09a7d}{Wolff}{W\bibinitperiod}{Ran}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=2e375612990b4b849f0548ebd4f1d757}{Birk}{B\bibinitperiod}{Yitzhak}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=491309738821a4a5f5459afeb8c561ee}{Keidar}{K\bibinitperiod}{Idit}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=94b3bc767db4d2a63b4d3ed369c68000}{Liss}{L\bibinitperiod}{Liran}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=d91dea204b6a8eba92f8f79d6f564a2d}{Schuster}{S\bibinitperiod}{Assaf}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=9b240f901023cd661da8f13e26e09a7d}{Wolff}{W\bibinitperiod}{Ran}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a500d3859d6472e316a92fdaf08ff624}
+      \strng{fullhash}{58cc72164a926ee247ff93d8e6aac952}
+      \field{sortinit}{2}
+      \field{labeltitle}{Veracity radius: capturing the locality of distributed computations}
+      \field{booktitle}{Proceedings of the twenty-fifth annual ACM symposium on Principles of distributed computing}
+      \field{title}{Veracity radius: capturing the locality of distributed computations}
+      \field{year}{2006}
+      \field{pages}{102\bibrangedash 111}
+    \endentry
     \entry{chan2006secure}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=a1925c349e63ef7a8260e5a52ea9bcc3}{Chan}{C\bibinitperiod}{Haowen}{H\bibinitperiod}{}{}{}{}}%
@@ -118,6 +289,100 @@
       \field{title}{Secure hierarchical in-network aggregation in sensor networks}
       \field{year}{2006}
       \field{pages}{278\bibrangedash 287}
+    \endentry
+    \entry{chen2006robust}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=376827842532802226a7b5e293221bc1}{Chen}{C\bibinitperiod}{J-Y}{J\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=53866e20230289c7772c19995cedde95}{Pandurangan}{P\bibinitperiod}{Gopal}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3ef6b69482a18357987464040ea00810}{Xu}{X\bibinitperiod}{Dongyan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=376827842532802226a7b5e293221bc1}{Chen}{C\bibinitperiod}{J-Y}{J\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=53866e20230289c7772c19995cedde95}{Pandurangan}{P\bibinitperiod}{Gopal}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3ef6b69482a18357987464040ea00810}{Xu}{X\bibinitperiod}{Dongyan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b8ef602004eaea34671d27cf518ea751}
+      \strng{fullhash}{b8ef602004eaea34671d27cf518ea751}
+      \field{sortinit}{2}
+      \field{labeltitle}{Robust computation of aggregates in wireless sensor networks: distributed randomized algorithms and analysis}
+      \field{journaltitle}{Parallel and Distributed Systems, IEEE Transactions on}
+      \field{number}{9}
+      \field{title}{Robust computation of aggregates in wireless sensor networks: distributed randomized algorithms and analysis}
+      \field{volume}{17}
+      \field{year}{2006}
+      \field{pages}{987\bibrangedash 1000}
+    \endentry
+    \entry{motegi2006dag}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=44d5263c49f3f182cfc7e54fc7d91868}{Motegi}{M\bibinitperiod}{Shinji}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=087770a26efc3bab87bf1addb0b92797}{Yoshihara}{Y\bibinitperiod}{Kiyohito}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6396dccbe7695990d1d0847780c38e69}{Horiuchi}{H\bibinitperiod}{Hiroki}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=44d5263c49f3f182cfc7e54fc7d91868}{Motegi}{M\bibinitperiod}{Shinji}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=087770a26efc3bab87bf1addb0b92797}{Yoshihara}{Y\bibinitperiod}{Kiyohito}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6396dccbe7695990d1d0847780c38e69}{Horiuchi}{H\bibinitperiod}{Hiroki}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{947a65744163e9a315738041c242b86d}
+      \strng{fullhash}{947a65744163e9a315738041c242b86d}
+      \field{sortinit}{2}
+      \field{labeltitle}{DAG based in-network aggregation for sensor network monitoring}
+      \field{booktitle}{Applications and the Internet, 2006. SAINT 2006. International Symposium on}
+      \field{title}{DAG based in-network aggregation for sensor network monitoring}
+      \field{year}{2006}
+      \field{pages}{8\bibrangedash pp}
+    \endentry
+    \entry{chitnis2008aggregation}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e9182ab07827583aed1b4ea8641b549d}{Chitnis}{C\bibinitperiod}{Laukik}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=fd5e562d0d4fee2fcdff1819a3ddfdae}{Dobra}{D\bibinitperiod}{Alin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fc1097ec61f9978b0681d83b669443ea}{Ranka}{R\bibinitperiod}{Sanjay}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e9182ab07827583aed1b4ea8641b549d}{Chitnis}{C\bibinitperiod}{Laukik}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=fd5e562d0d4fee2fcdff1819a3ddfdae}{Dobra}{D\bibinitperiod}{Alin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fc1097ec61f9978b0681d83b669443ea}{Ranka}{R\bibinitperiod}{Sanjay}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1dcab9b6a42cf1ecea264d18c0cc509a}
+      \strng{fullhash}{1dcab9b6a42cf1ecea264d18c0cc509a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Aggregation methods for large-scale sensor networks}
+      \field{journaltitle}{ACM Transactions on Sensor Networks (TOSN)}
+      \field{number}{2}
+      \field{title}{Aggregation methods for large-scale sensor networks}
+      \field{volume}{4}
+      \field{year}{2008}
+      \field{pages}{9}
+    \endentry
+    \entry{fan2008efficient}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=83920233ce6614d3df01518d01cf7aad}{Fan}{F\bibinitperiod}{Yao-Chung}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=d973f6b79552de8a2331806aac5c5085}{Chen}{C\bibinitperiod}{Arbee\bibnamedelima LP}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=83920233ce6614d3df01518d01cf7aad}{Fan}{F\bibinitperiod}{Yao-Chung}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=d973f6b79552de8a2331806aac5c5085}{Chen}{C\bibinitperiod}{Arbee\bibnamedelima LP}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{146b9ea3aea8041059cad10a52ecc9af}
+      \strng{fullhash}{146b9ea3aea8041059cad10a52ecc9af}
+      \field{sortinit}{2}
+      \field{labeltitle}{Efficient and robust sensor data aggregation using linear counting sketches}
+      \field{booktitle}{Parallel and Distributed Processing, 2008. IPDPS 2008. IEEE International Symposium on}
+      \field{title}{Efficient and robust sensor data aggregation using linear counting sketches}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 12}
     \endentry
     \entry{yu2009distributed}{inproceedings}{}
       \name{labelname}{3}{}{%
@@ -207,6 +472,31 @@
       \field{year}{2010}
       \field{pages}{1\bibrangedash 7}
     \endentry
+    \entry{sacha2010adam2}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=ba14abc1a77bf64c34504bed967787c5}{Sacha}{S\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1b1d6a63cd589aaf2bffd345494107c8}{Napper}{N\bibinitperiod}{Jeff}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1bfa8ecb77cce6e8933e36e6af335192}{Stratan}{S\bibinitperiod}{Corina}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb37e321fa3ed17bc6156ce02846444c}{Pierre}{P\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=ba14abc1a77bf64c34504bed967787c5}{Sacha}{S\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1b1d6a63cd589aaf2bffd345494107c8}{Napper}{N\bibinitperiod}{Jeff}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1bfa8ecb77cce6e8933e36e6af335192}{Stratan}{S\bibinitperiod}{Corina}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb37e321fa3ed17bc6156ce02846444c}{Pierre}{P\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{41657f0a46b77ac9f8335b000d8212a8}
+      \strng{fullhash}{be23693ae5b2ad78ef47f08512463926}
+      \field{sortinit}{2}
+      \field{labeltitle}{Adam2: Reliable distribution estimation in decentralised environments}
+      \field{booktitle}{Distributed Computing Systems (ICDCS), 2010 IEEE 30th International Conference on}
+      \field{title}{Adam2: Reliable distribution estimation in decentralised environments}
+      \field{year}{2010}
+      \field{pages}{697\bibrangedash 707}
+    \endentry
     \entry{RePEc:eee:rensus:v:15:y:2011:i:6:p:2736-2742}{article}{}
       \name{labelname}{3}{}{%
         {{hash=95ed7351c13082dc1905c95c45ccd469}{Depuru}{D\bibinitperiod}{Soma\bibnamedelimb Shekara\bibnamedelimb Sreenadh\bibnamedelima Reddy}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
@@ -278,6 +568,31 @@
       \verb http://dblp.uni-trier.de/db/journals/corr/corr1110.html#abs-1110-0725
       \endverb
       \keyw{dblp}
+    \endentry
+    \entry{khalifa2011survey}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=75d304f106d3052a8370c5478e2386a5}{Khalifa}{K\bibinitperiod}{Tarek}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=251aa962b28bf651adadd63155647380}{Naik}{N\bibinitperiod}{Kshirasagar}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=5b32111f476830ba8d4de5383953d739}{Nayak}{N\bibinitperiod}{Amiya}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=75d304f106d3052a8370c5478e2386a5}{Khalifa}{K\bibinitperiod}{Tarek}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=251aa962b28bf651adadd63155647380}{Naik}{N\bibinitperiod}{Kshirasagar}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=5b32111f476830ba8d4de5383953d739}{Nayak}{N\bibinitperiod}{Amiya}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{123a4f017afd2fa016a0a0b903376385}
+      \strng{fullhash}{123a4f017afd2fa016a0a0b903376385}
+      \field{sortinit}{2}
+      \field{labeltitle}{A survey of communication protocols for automatic meter reading applications}
+      \field{journaltitle}{Communications Surveys \& Tutorials, IEEE}
+      \field{number}{2}
+      \field{title}{A survey of communication protocols for automatic meter reading applications}
+      \field{volume}{13}
+      \field{year}{2011}
+      \field{pages}{168\bibrangedash 182}
     \endentry
     \entry{rottondi2012}{inproceedings}{}
       \name{labelname}{2}{}{%
