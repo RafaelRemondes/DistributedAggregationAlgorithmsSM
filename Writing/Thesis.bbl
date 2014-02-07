@@ -384,6 +384,33 @@
       \field{year}{2008}
       \field{pages}{1\bibrangedash 12}
     \endentry
+    \entry{RePEc:erp:euirsc:p0193}{report}{}
+      \name{labelname}{2}{}{%
+        {{hash=ced1c3fac47cc42655770b84ff178fcd}{Vasconcelos}{V\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f4a1c8901a3d406f17af67144a3ec71a}{Jorge}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ced1c3fac47cc42655770b84ff178fcd}{Vasconcelos}{V\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f4a1c8901a3d406f17af67144a3ec71a}{Jorge}{J\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {European University Institute (EUI), Robert Schuman Centre of Advanced Studies (RSCAS)}%
+      }
+      \strng{namehash}{c09eec70ced8fc3eadc5b8ac6a77a870}
+      \strng{fullhash}{c09eec70ced8fc3eadc5b8ac6a77a870}
+      \field{sortinit}{2}
+      \field{labeltitle}{Survey of Regulatory and Technological Developments Concerning Smart Metering in the European Union Electricity Market}
+      \field{abstract}{Smart metering is a crucial factor for the efficient functioning of the Internal Electricity Market, as well as for the successful implementation of European Union policies related to energy efficiency, renewable energy and security of supply. The report first outlines the potential benefits of smart meters for consumers, suppliers, metering companies, distribution network operators and public interest. Next the report provides a short overview of the legal framework governing metering activities in Europe, as well as a review of smart metering policies, a summary of regulatory and legislative tools and an analysis of cases in selected countries. Drawing from the experiences to date, the report concludes with a set of recommendations for policy makers to consider when developing a smart metering programme and the regulatory approaches that could be adopted at national and/or EU level to encourage compatibility of smart metering solutions and to accelerate implementation of smart meters and smart grids.}
+      \field{month}{09}
+      \field{number}{1}
+      \field{title}{Survey of Regulatory and Technological Developments Concerning Smart Metering in the European Union Electricity Market}
+      \field{type}{EUI-RSCAS Working Papers}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://ideas.repec.org/p/erp/euirsc/p0193.html
+      \endverb
+      \keyw{energy policy; electricity; electricity; regulation}
+    \endentry
     \entry{yu2009distributed}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=acae0d16fe2fdc8a53507106044e646c}{Yu}{Y\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
@@ -830,7 +857,7 @@
       \keyw{security,smart\_grid}
     \endentry
   \endsortlist
-  \missing{e}
+  \missing{villas2013drina}
 \endrefsection
 \endinput
 

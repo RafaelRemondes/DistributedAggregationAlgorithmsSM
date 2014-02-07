@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.16)  5 FEB 2014 19:27
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.16)  7 FEB 2014 01:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1605,7 +1605,7 @@ Package biblatex Info: ... file 'Thesis.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                e
+(biblatex)                villas2013drina
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1711,7 +1711,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [6
 
 
-] (./Thesis.nls)
+] (./Thesis.nls
+Underfull \hbox (badness 10000) detected at line 5
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 AMR[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 SG[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 SM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 WSN[]
+ []
+
+) [7
+
+
+
+]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 289.
@@ -1727,8 +1751,6 @@ less on input line 290.
  (./Chapters/intro.tex [1
 
 
-
-
 ]
 Chapter 1.
 [2
@@ -1738,46 +1760,24 @@ Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 13.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
  [3]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: Reference `chap:Smart Grid' on page 4 undefined on input line 36
-.
-
-
-LaTeX Warning: Reference `chap:Wireless Sensor Networks' on page 4 undefined on
- input line 37.
-
-
-LaTeX Warning: Reference `chap:Distributed Data Aggregation' on page 4 undefine
-d on input line 38.
-
 ) (./Chapters/sg.tex [4]
 Chapter 2.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/NIST_model.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
 riting/Images/NIST_model.jpg" > [5
 
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
@@ -1791,29 +1791,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 
 LaTeX Warning: Reference `sec:Smart Grid Communication' on page 10 undefined on
  input line 12.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--17
+
+ []
+
 [10
 
-]
-
-LaTeX Warning: Marginpar on page 11 moved.
-
-) (./Chapters/dda.tex [11]
+] [11]) (./Chapters/dda.tex [12]
 Chapter 4.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[12
+[13
 
-] [13]
+] [14]
 Overfull \hbox (10.57672pt too wide) in paragraph at lines 38--39
 [][]\EU1/LinLibertine_R(0)/bx/n/10.95 Definition 4.4. []\EU1/LinLibertine_R(0)/
 m/n/10.95 An aggregation function $\OML/cmm/m/it/10.95 f$ \EU1/LinLibertine_R(0
@@ -1823,116 +1822,142 @@ m/n/10.95 An aggregation function $\OML/cmm/m/it/10.95 f$ \EU1/LinLibertine_R(0
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (10.9944pt too wide) in paragraph at lines 61--75
+Overfull \hbox (10.9944pt too wide) in paragraph at lines 61--66
 []\EU1/LinLibertine_R(0)/m/n/10.95 Traditionally, existing aggregation algorith
 ms operate on a hierarchy-based communication scheme.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--75
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--75
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--75
-
- []
-
-[14]
-
-LaTeX Warning: Marginpar on page 15 moved.
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
-
+Overfull \hbox (4.48344pt too wide) in paragraph at lines 61--66
+\EU1/LinLibertine_R(0)/bx/it/10.95 DRINA \EU1/LinLibertine_R(0)/m/n/10.95 DRINA
+ is a cluster based protocol proposed in [[] ], denominated as a lightweight
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 82--85
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--77
 
  []
 
 [16]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
+
+LaTeX Warning: Marginpar on page 17 moved.
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--97
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
 
-Overfull \hbox (12.10889pt too wide) in paragraph at lines 90--97
-\EU1/LinLibertine_R(0)/m/n/10.95 work in which aggregates are sucessfully compu
-ted. There are three modes a node can performe:\EU1/LinLibertine_R(0)/m/it/10.9
-5 leader,idle
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--97
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 99--105
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Overfull \hbox (11.90083pt too wide) in paragraph at lines 92--99
+\EU1/LinLibertine_R(0)/m/n/10.95 work in which aggregates are successfully comp
+uted. There are three modes a node can perform:\EU1/LinLibertine_R(0)/m/it/10.9
+5 leader,idle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 101--107
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 108--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--119
+
+ []
+
+[20]
+File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
+iting/Images/tableComp.jpg Graphic file (type QTm)
+
+<use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
+riting/Images/tableComp.jpg" >
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/INA.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
-riting/Images/INA.jpg" > [19]
+riting/Images/INA.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/meterExample.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
-riting/Images/meterExample.jpg" > [20]) (./Chapters/conc.tex [21]
+riting/Images/meterExample.jpg" > [22]) (./Chapters/conc.tex [23]
 Chapter 5.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [22
+) [24
 
 ]
 ------------------------------------------------------------------------------
@@ -1942,13 +1967,13 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 343
 .
 (/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [23
+) [25
 
 
-] [24]
-[25]
+] [26]
+[27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
- [26]
+ [28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
  (./Thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 346.
@@ -1963,12 +1988,12 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
  ) 
 Here is how much of TeX's memory you used:
- 39670 strings out of 493918
- 751130 string characters out of 6148599
- 1155640 words of memory out of 5000000
- 42304 multiletter control sequences out of 15000+600000
+ 39653 strings out of 493918
+ 750646 string characters out of 6148599
+ 1149639 words of memory out of 5000000
+ 42286 multiletter control sequences out of 15000+600000
  9571 words of font info for 70 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,11n,76p,13134b,1042s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,76p,13134b,1053s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (33 pages).
+Output written on Thesis.pdf (36 pages).

@@ -1,0 +1,12 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{AMR}]\begingroup Automatic Meter Reading\nomeqref {2.0}
+		\nompageref{7}
+  \item [{SG}]\begingroup Smart Grid\nomeqref {1.0}\nompageref{2}
+  \item [{SM}]\begingroup Smart Meters\nomeqref {1.0}\nompageref{2}
+  \item [{WSN}]\begingroup Wireless Sensor Network\nomeqref {1.0}
+		\nompageref{4}
+
+\end{thenomenclature}
