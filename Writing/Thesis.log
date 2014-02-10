@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.16)  7 FEB 2014 01:44
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.16)  9 FEB 2014 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1456,42 +1456,56 @@ File: pgfcalendar.code.tex 2007/07/23 v2.10 (rcs-revision 1.11)
 ) (./Commands.sty
 Package: Commands 
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2013/08/25 v0.4v Pdfpages driver for XeTeX (AM)
+)
+\AM@pagebox=\box62
+\AM@toc@title=\toks45
+\c@AM@survey=\count407
+\AM@templatesizebox=\box63
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count407
-\@quotereset=\count408
+\@quotelevel=\count408
+\@quotereset=\count409
 
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 69.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 71.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 71.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1499,69 +1513,69 @@ LaTeX Font Info:    ... okay on input line 69.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 69.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 69.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 69.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 69.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 69.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 69.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 69.
-LaTeX Font Info:    Redeclaring math accent \check on input line 69.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 69.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 69.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 69.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 69.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 71.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 71.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 71.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 71.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 71.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 71.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 71.
+LaTeX Font Info:    Redeclaring math accent \check on input line 71.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 71.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 71.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 71.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 71.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 69.
+(Font)              `operators' in the math version `normal' on input line 71.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/LinLibertine_R(0)/m/n on input line
- 69.
+ 71.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 69.
+(Font)              `operators' in the math version `bold' on input line 71.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/LinLibertine_R(0)/m/n on input lin
-e 69.
+e 71.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/m/n
- on input line 69.
+ on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/m/n
- on input line 69.
+ on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/LinLibertine_R(0)/m/it on input li
-ne 69.
+ne 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/LinLibertine_R(0)/bx/n on input li
-ne 69.
+ne 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 69.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 69.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 71.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/bx/
-n on input line 69.
+n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/bx/
-n on input line 69.
+n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/LinLibertine_R(0)/bx/it on input 
-line 69.
+line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 69.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 71.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 69.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 71.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1573,9 +1587,9 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count409
-\AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 69.
+\c@lstlisting=\count410
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring OFF on input line 71.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1583,11 +1597,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count410
+\c@section@level=\count411
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write7
@@ -1601,18 +1615,11 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis.bbl' found.
- (./Thesis.bbl
+ (./Thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 71.
+Package biblatex Info: Reference segment=0 on input line 71.
 
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                villas2013drina
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 69.
-Package biblatex Info: Reference segment=0 on input line 69.
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
@@ -1626,7 +1633,7 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 . 
 . Font NewsGotT Regular does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_NewsGotT Regular_int=\count411
+\g_fontspec_family_NewsGotT Regular_int=\count412
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1713,21 +1720,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./Thesis.nls
 Underfull \hbox (badness 10000) detected at line 5
-[]\EU1/LinLibertine_R(0)/bx/n/10.95 AMR[]
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 AMI[]
  []
 
 
 Underfull \hbox (badness 10000) detected at line 7
-[]\EU1/LinLibertine_R(0)/bx/n/10.95 SG[]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 8
-[]\EU1/LinLibertine_R(0)/bx/n/10.95 SM[]
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 AMR[]
  []
 
 
 Underfull \hbox (badness 10000) detected at line 9
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 SG[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 10
+[]\EU1/LinLibertine_R(0)/bx/n/10.95 SM[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 11
 []\EU1/LinLibertine_R(0)/bx/n/10.95 WSN[]
  []
 
@@ -1738,53 +1750,44 @@ Underfull \hbox (badness 10000) detected at line 9
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 289.
+less on input line 293.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 290.
+less on input line 294.
 
-(./Thesis.tdo)
-\tf@tdo=\write10
-\openout10 = `Thesis.tdo'.
-
- (./Chapters/intro.tex [1
-
-
-]
+(./Chapters/intro.tex
 Chapter 1.
-[2
+[1
 
-]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 13.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [3]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./Chapters/sg.tex [4]
+
+] [2]) (./Chapters/sg.tex [3]
 Chapter 2.
+File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
+iting/Images/differencesTraditionalSmart.jpg Graphic file (type QTm)
+
+<use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
+riting/Images/differencesTraditionalSmart.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/NIST_model.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
-riting/Images/NIST_model.jpg" > [5
+riting/Images/NIST_model.jpg" > [4
 
-] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
-[8]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./Chapters/wsn.tex [9]
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+[7]) (./Chapters/wsn.tex [8] [9]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--6
@@ -1795,12 +1798,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 LaTeX Warning: Reference `sec:Smart Grid Communication' on page 10 undefined on
  input line 12.
 
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--17
+Underfull \hbox (badness 10000) in paragraph at lines 9--16
 
  []
 
@@ -1808,8 +1807,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--17
 
 ] [11]) (./Chapters/dda.tex [12]
 Chapter 4.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 [13
 
 ] [14]
@@ -1820,117 +1817,118 @@ m/n/10.95 An aggregation function $\OML/cmm/m/it/10.95 f$ \EU1/LinLibertine_R(0
 /it/10.95 M; f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) =
  []
 
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (10.9944pt too wide) in paragraph at lines 61--66
+Overfull \hbox (10.9944pt too wide) in paragraph at lines 60--65
 []\EU1/LinLibertine_R(0)/m/n/10.95 Traditionally, existing aggregation algorith
 ms operate on a hierarchy-based communication scheme.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
 
  []
 
 
-Overfull \hbox (4.48344pt too wide) in paragraph at lines 61--66
+Overfull \hbox (6.80481pt too wide) in paragraph at lines 60--65
 \EU1/LinLibertine_R(0)/bx/it/10.95 DRINA \EU1/LinLibertine_R(0)/m/n/10.95 DRINA
- is a cluster based protocol proposed in [[] ], denominated as a lightweight
+ is a cluster based protocol described in [[]35[]] that denominates the algorit
+hm as \EU1/LinLibertine_R(0)/m/it/10.95 lightweight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
+
  []
 
 [15]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--77
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--77
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--77
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
 
 [16]
-
-LaTeX Warning: Marginpar on page 17 moved.
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
 [17]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--99
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
 
  []
 
 
-Overfull \hbox (11.90083pt too wide) in paragraph at lines 92--99
+Overfull \hbox (11.90083pt too wide) in paragraph at lines 91--97
 \EU1/LinLibertine_R(0)/m/n/10.95 work in which aggregates are successfully comp
 uted. There are three modes a node can perform:\EU1/LinLibertine_R(0)/m/it/10.9
 5 leader,idle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--99
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--99
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 101--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
+Underfull \hbox (badness 10000) in paragraph at lines 106--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
+Underfull \hbox (badness 10000) in paragraph at lines 106--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
+Underfull \hbox (badness 10000) in paragraph at lines 106--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
+Underfull \hbox (badness 10000) in paragraph at lines 106--117
 
  []
 
@@ -1944,26 +1942,20 @@ File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/INA.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
-riting/Images/INA.jpg" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21]
+riting/Images/INA.jpg" > [21]
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/meterExample.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
 riting/Images/meterExample.jpg" > [22]) (./Chapters/conc.tex [23]
 Chapter 5.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 ) [24
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 343
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 347
 .
 (/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1972,12 +1964,12 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ] [26]
 [27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
  (./Thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 350.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 350.
 
 
 LaTeX Warning: There were undefined references.
@@ -1985,15 +1977,15 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
- 39653 strings out of 493918
- 750646 string characters out of 6148599
- 1149639 words of memory out of 5000000
- 42286 multiletter control sequences out of 15000+600000
+ 40098 strings out of 493918
+ 757052 string characters out of 6148599
+ 1148846 words of memory out of 5000000
+ 42721 multiletter control sequences out of 15000+600000
  9571 words of font info for 70 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,11n,76p,13134b,1053s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,75p,13134b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Thesis.pdf (36 pages).

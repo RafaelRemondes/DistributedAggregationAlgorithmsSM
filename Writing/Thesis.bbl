@@ -384,6 +384,25 @@
       \field{year}{2008}
       \field{pages}{1\bibrangedash 12}
     \endentry
+    \entry{hart2008using}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=35c37f4e2d2106973048eabe2ff721be}{Hart}{H\bibinitperiod}{David\bibnamedelima G}{D\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=35c37f4e2d2106973048eabe2ff721be}{Hart}{H\bibinitperiod}{David\bibnamedelima G}{D\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{35c37f4e2d2106973048eabe2ff721be}
+      \strng{fullhash}{35c37f4e2d2106973048eabe2ff721be}
+      \field{sortinit}{2}
+      \field{labeltitle}{Using AMI to realize the Smart Grid}
+      \field{booktitle}{Power and Energy Society General Meeting-Conversion and Delivery of Electrical Energy in the 21st Century, 2008 IEEE}
+      \field{title}{Using AMI to realize the Smart Grid}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 2}
+    \endentry
     \entry{RePEc:erp:euirsc:p0193}{report}{}
       \name{labelname}{2}{}{%
         {{hash=ced1c3fac47cc42655770b84ff178fcd}{Vasconcelos}{V\bibinitperiod}{}{}{}{}{}{}}%
@@ -822,6 +841,33 @@
       \field{year}{2013}
       \field{pages}{1\bibrangedash 5}
     \endentry
+    \entry{villas2013drina}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=15e88526ebdfb0e3842da1d757ee393d}{Villas}{V\bibinitperiod}{Leandro}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=357c49ed8aa14cedecc75983ed850f63}{Boukerche}{B\bibinitperiod}{Azzedine}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3b74ed8d6c9ca0447b9e4d045cd19ce7}{Ramos\bibnamedelima Filho}{R\bibinitperiod\bibinitdelim F\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e72692ad29ffb2809130723ad5b92244}{Oliveira}{O\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=70cacf65bd514b4b286415cd049d7cfb}{Araujo}{A\bibinitperiod}{Regina}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=7fbdc764f00ae1a779dbb17a9ca3a177}{Loureiro}{L\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=15e88526ebdfb0e3842da1d757ee393d}{Villas}{V\bibinitperiod}{Leandro}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=357c49ed8aa14cedecc75983ed850f63}{Boukerche}{B\bibinitperiod}{Azzedine}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3b74ed8d6c9ca0447b9e4d045cd19ce7}{Ramos\bibnamedelima Filho}{R\bibinitperiod\bibinitdelim F\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e72692ad29ffb2809130723ad5b92244}{Oliveira}{O\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=70cacf65bd514b4b286415cd049d7cfb}{Araujo}{A\bibinitperiod}{Regina}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=7fbdc764f00ae1a779dbb17a9ca3a177}{Loureiro}{L\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d7ca6225c4f832570e69c8c73ae06b5a}
+      \strng{fullhash}{d83c403f6a784f84d0b71ee9e3f2255b}
+      \field{sortinit}{2}
+      \field{labeltitle}{DRINA: a lightweight and reliable routing approach for in-network aggregation in wireless sensor networks}
+      \field{title}{DRINA: a lightweight and reliable routing approach for in-network aggregation in wireless sensor networks}
+      \field{year}{2013}
+    \endentry
     \entry{Ericsson_2}{article}{}
       \name{labelname}{1}{}{%
         {{hash=e941cf8907743a6dac30f0ae6d32deda}{Ericsson}{E\bibinitperiod}{G.\bibnamedelimi N.}{G\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -857,7 +903,6 @@
       \keyw{security,smart\_grid}
     \endentry
   \endsortlist
-  \missing{villas2013drina}
 \endrefsection
 \endinput
 

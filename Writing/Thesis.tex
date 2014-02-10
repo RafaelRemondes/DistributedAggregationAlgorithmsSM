@@ -6,7 +6,7 @@
 % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 % use the draft option to print overfull hbox
 \documentclass[a4paper, 11pt, oneside]{Thesis}
-% TODO: change to twosize when done
+% : change to twosize when done
 %\documentclass[a4paper, 11pt, twoside]{Thesis}
 % Location of the graphics files (set up for graphics to be in PDF format)
 \graphicspath{Figures/}
@@ -65,8 +65,12 @@
 
 % include new commands
 \usepackage{Commands}
+\usepackage{pdfpages}
+
 %% ---------------------------------------------------------------------------
 \begin{document}
+%\includepdf[pages={1}]{parecer.pdf}
+
 % Begin Roman style (i, ii, iii, iv...) page numbering
 \frontmatter
 
@@ -292,7 +296,7 @@
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\listoftodos
+%\listoftodos
 
 \input{Chapters/intro} % Introduction
 
