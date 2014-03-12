@@ -7,24 +7,46 @@ class Node(object):
 
     Net = None
     pos = None
-    nodesToBroadcast = {}
+    alpha = None
+    list_xj = None
+    list_stat = None
 
     def __init__(self, Net, n):
         self.Net = Net
         self.pos = n
-        self.list_neighbors = self.Net.getNodes()
+        self.alpha = Net.getAlpha()
+        self.list_xj = []
+        self.list_xj = Net.getXj()
+        self.list_stat = []
+        self.list_stat.append(0.0)
 
     def sendMessage(self,r):
         #start the algorithm
-        vr = self.Net.getVr(r) #calculate vti as sum(vr) in round t-1
-        m =  msg.Message(vr,r) # create a new message to send it with vti * alpha-share
-        self.Net.sendMessage(m) # send to selected neighbor
-    
-    def average(self,r):
-        #compute the avarage
-    	return vector.sumElems(self.Net.computeS(ps))/vector.sumElems(self.Net.computeW())
+        vr = self.Net.getVr(self.pos,r-1) #calculate vti as sum(vr) in round t-1
+        vr = vector.mul(vr,self.alpha)
+        m =  msg.Message(r,v=vr) # create a new message to send it with vti * alpha-share
+        self.Net.sendMessage(m) # send to all 
+
+    def calculateS(self, r):
+        sumVr = vector.sum(self.Net.getVr(self.pos,r),self.Net.getVr(self.pos,(r-1)))
+        si = vector.sumElems(vector.mulVector(sumVr,self.list_xj))
+        return si
+
+    def calculateW(self,r):
+        return len(self.Net.getVr(self.pos,r))
+
+    def calculateEstimate(self,r):
+        si = self.calculateS(r)
+        wi = self.calculateW(r)
+        print "Node %d in round %d"%(self.pos,r)
+        self.list_stat.append(si/wi)
+
+    def getEstimate(self, rd):
+        print "round: %d"%rd
+        print "size: %d"%len(self.list_stat)
+        return self.list_stat[rd]
 
     def main(self,n):
-
             self.sendMessage(n)
-            print 'AVERAGE %d in round %d'%(self.average(n),n)
+            self.calculateEstimate(n)
+

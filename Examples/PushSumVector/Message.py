@@ -5,13 +5,13 @@ class Message(object):
     v = None
     rd = None
 
-    def __init__(self, length,indice, rd):
-        self.v = vector.initVector(length,indice)
-        self.rd = rd
-
-    def __init__(self,v,rd):
-        self.v = v
-        rd = rd
+    def __init__(self,rd,l=None, indice=None,v=None):
+        if (indice is None) and (l is None)  :
+           self.v = v
+           rd = rd
+        else :
+           self.v = vector.initVector(l,indice)
+           self.rd = rd
     
     def getV(self):
         return self.v

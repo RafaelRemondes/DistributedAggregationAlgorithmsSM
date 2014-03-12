@@ -20,11 +20,10 @@ class Network(object):
        list_nodes = self.graph.nodes()
        #initialize nodes with a random value
        for i in range(0,len(list_nodes)):
-          x = random.uniform(1.0, 9.9)
+          x = random.uniform(1.0, 1000.0)
           r += x
-          m = msg.Message(x,1.0,0)
-          list_m = {}
-          list_m[0] = m
+          list_m = []
+          list_m.append(msg.Message(x,1.0,0))
           self.graph.node[list_nodes[i]]['msg'] = list_m
        self.realVal = r/len(self.graph.nodes())
 
@@ -38,15 +37,10 @@ class Network(object):
       return self.realVal
 
     def sendMessage(self,node,message):
-        self.x_lock.acquire()
         list_m = self.graph.node[node]['msg'] 
-        list_m[len(list_m)] = message
+        list_m.append(message)
         self.graph.node[node]['msg'] = list_m
-        self.nrMessages+=1
-        self.x_lock.release()
 
-    def setEstimate(self,node,st):
-      self.graph.node[node]['estimate'] = st
 
     def computeSumS(self,node,rd):
       r = rd
@@ -73,11 +67,6 @@ class Network(object):
     def getNeighbors(self, node):
         return self.graph.neighbors(node)
 
-    def getSizeMessages(self, node):
-        return self.graph.node[node]['num']
-
     def getRealVal(self):
+      #get the real average
       return self.realVal
-
-    def logMessages(self):
-        print 'Messages Exchanged %d'%self.nrMessages

@@ -1,8 +1,8 @@
 class Message(object):
 
-    s = None
-    w = None
-    rd = None
+    s = 0.0
+    w = 0.0
+    rd = 0
 
     def __init__(self, s, w, rd):
         self.s = s
@@ -11,6 +11,9 @@ class Message(object):
     
     def getS(self):
         return self.s
+    
+    def setS(self,s):
+        self.s += s
 
     def getW(self):
         return self.w
