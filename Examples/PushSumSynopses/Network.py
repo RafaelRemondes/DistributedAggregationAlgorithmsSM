@@ -13,3 +13,4 @@ class Network(object):
 		for i in range(0,len(self.graph.nodes()))
 		    list_m = []
 		    
+		    
