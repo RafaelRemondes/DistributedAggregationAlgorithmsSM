@@ -12,8 +12,7 @@ class Network(object):
       self.graph = nx.random_geometric_graph(n,0.8)
       if not nx.is_connected(self.graph):
          self.graph =  nx.is_connected_component_subgraphs(self.graph)[0]
-      list_nodes = self.graph.nodes()
-      for i in range(0,len(list_nodes)):
+      for i in range(0,len(self.graph.nodes())):
          self.initializeNode(i,k)
 
     def initializeNode(self,pos,k):
