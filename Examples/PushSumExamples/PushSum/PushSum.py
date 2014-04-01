@@ -52,7 +52,7 @@ class pushSum(object):
 
    def drawChart(self,n):
     line_chart = pygal.Line()
-    line_chart.title = 'Average Estimate in each node towards the rounds'
+    line_chart.title = 'Average Estimate in each node'
     line_chart.x_labels = map(str, range(1, n+1))
     list_estimate = self.computeStat(n)
     line_chart.add('Estimate', list_estimate)
@@ -73,7 +73,7 @@ class pushSum(object):
 
 #initialize the protocol
 p = pushSum()
-p.startRounds(20)
+p.startRounds(25)
 time.sleep(10)
 p.drawChart(20)
 #p.logMessage()
