@@ -13,7 +13,7 @@ class ExtremaPropagation(object):
 
     class serviceNode(threading.Thread):
 
-       pos = Noneclass 
+       pos = None
        rd = None
 
        def __init__(self,pos,rd):
