@@ -1,11 +1,43 @@
-\chapter{An Appendix}
+\chapter{Aggregation Functions}
+\subsection {Decomposable functions}
+For some aggregation function, one node may need to perform a single computation operation involving all the elements of the multiset, requiring more resources than the ideal ones. So, in order the distributed the effort to compute the multiset, there are some aggregation function that are decomposable. Meaning that, the effort could be done in a distributed way. A definition for decomposable function is also given in \cite{journals/corr/abs-1110-0725}:
+\begin{definition} An aggregation function $ f : \mathbb{N}^I \to O$ is said to be self decomposable if, for some (merge) operator $\diamond$ and all non empty multisets $X$ and $Y$:
+\begin{equation*}f(X \uplus Y) = f(X) \diamond f(Y) \end{equation*}
+\end{definition}
+The $\uplus$ denotates the standard multiset sum. The operator $\diamond$ is commutative and associative \cite{journals/corr/abs-1110-0725}. Some functions that are self-decomposable:
+\begin{align*}SUM ({x}) &= x,\\
+SUM(X \uplus Y) &= SUM(X)+SUM(Y).\end{align*}
+\begin{align*}COUNT ({x}) &= x,  \\
+COUNT(X \uplus Y)& = COUNT(X)+COUNT(Y).\end{align*}
+\begin{align*}MIN ({x}) &= x,\\
+MIN(X \uplus Y) &= MIN(X) \sqcap MIN(Y).\end{align*}
+\begin{definition}
+An aggregation function $ f : \mathbb{N}^I \to O$ is said said to be decomposable if for some function $g$ and a self-decomposable aggregation function $h$, it can be expressed as:
+\begin{equation*}f=g \circ h\end{equation*}
+\end{definition}
+As the definition above, stated in \cite{journals/corr/abs-1110-0725}, self decomposable functions are a subset of the decomposable functions. One example of a decomposable functions $AVERAGE$:
+\begin{align*} 
+AVERAGE(X) &= g(h(X)),\\
+h({x}) &= (x,1),\\
+h(X \uplus Y) &= h(X) + h(Y),\\
+g((s,c)) &= s/c. \end{align*}
+Another example is the $RANGE$ which gives the difference between the maximum and minimum value.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at pulvinar nisi. Phasellus hendrerit, diam placerat interdum iaculis, mauris justo cursus risus, in viverra purus eros at ligula. Ut metus justo, consequat a tristique posuere, laoreet nec nibh. Etiam et scelerisque mauris. Phasellus vel massa magna. Ut non neque id tortor pharetra bibendum vitae sit amet nisi. Duis nec quam quam, sed euismod justo. Pellentesque eu tellus vitae ante tempus malesuada. Nunc accumsan, quam in congue consequat, lectus lectus dapibus erat, id aliquet urna neque at massa. Nulla facilisi. Morbi ullamcorper eleifend posuere. Donec libero leo, faucibus nec bibendum at, mattis et urna. Proin consectetur, nunc ut imperdiet lobortis, magna neque tincidunt lectus, id iaculis nisi justo id nibh. Pellentesque vel sem in erat vulputate faucibus molestie ut lorem.
 
-Quisque tristique urna in lorem laoreet at laoreet quam congue. Donec dolor turpis, blandit non imperdiet aliquet, blandit et felis. In lorem nisi, pretium sit amet vestibulum sed, tempus et sem. Proin non ante turpis. Nulla imperdiet fringilla convallis. Vivamus vel bibendum nisl. Pellentesque justo lectus, molestie vel luctus sed, lobortis in libero. Nulla facilisi. Aliquam erat volutpat. Suspendisse vitae nunc nunc. Sed aliquet est suscipit sapien rhoncus non adipiscing nibh consequat. Aliquam metus urna, faucibus eu vulputate non, luctus eu justo.
-
-Donec urna leo, vulputate vitae porta eu, vehicula blandit libero. Phasellus eget massa et leo condimentum mollis. Nullam molestie, justo at pellentesque vulputate, sapien velit ornare diam, nec gravida lacus augue non diam. Integer mattis lacus id libero ultrices sit amet mollis neque molestie. Integer ut leo eget mi volutpat congue. Vivamus sodales, turpis id venenatis placerat, tellus purus adipiscing magna, eu aliquam nibh dolor id nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed cursus convallis quam nec vehicula. Sed vulputate neque eget odio fringilla ac sodales urna feugiat.
-
-Phasellus nisi quam, volutpat non ullamcorper eget, congue fringilla leo. Cras et erat et nibh placerat commodo id ornare est. Nulla facilisi. Aenean pulvinar scelerisque eros eget interdum. Nunc pulvinar magna ut felis varius in hendrerit dolor accumsan. Nunc pellentesque magna quis magna bibendum non laoreet erat tincidunt. Nulla facilisi.
-
-Duis eget massa sem, gravida interdum ipsum. Nulla nunc nisl, hendrerit sit amet commodo vel, varius id tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac dolor est. Suspendisse ultrices tincidunt metus eget accumsan. Nullam facilisis, justo vitae convallis sollicitudin, eros augue malesuada metus, nec sagittis diam nibh ut sapien. Duis blandit lectus vitae lorem aliquam nec euismod nisi volutpat. Vestibulum ornare dictum tortor, at faucibus justo tempor non. Nulla facilisi. Cras non massa nunc, eget euismod purus. Nunc metus ipsum, euismod a consectetur vel, hendrerit nec nunc.
+\subsection {Duplicate sensitiveness and idempotence} 
+For some functions, the presence of duplicate results does not affect the result. Examples of this aggregation functions are $MAX$ and $MIN$, where"\textit{ the result on only depend on its \textit{support} set(obtained by removing all duplicates)}"\cite{journals/corr/abs-1110-0725}. Others, like $SUM$ or $COUNT$, the duplicate numbers are relevant. This propriety is called duplicate sensitiveness, it is relevante in distributed aggregation. Using an idempotent binary operator on the elements of the multiset helps obtaining fault tolerance \cite{journals/corr/abs-1110-0725}.
+\begin{definition}
+An aggregation function $f$ is said to be duplicate insensitive if for all multiset $M, f(M) = f(S)$, where $S$ is the support set of $M$.
+\end{definition}
+A taxonomy table of aggregation is in \cite{journals/corr/abs-1110-0725} and it is presented below.
+\begin{center}    
+\begin{tabular}{|c||c|c|c|}
+    \hline
+                                         &   \multicolumn{2} {|  c  |}{ Decomposable}                                               &    Non-decomposable \\ \hline
+                                         &    Self-Decomposable      &                               &  \\ \hline
+      Duplicate insensitive  &    $MIN,MAX$                  &     $RANGE$         &  $DISTINCT,COUNT$ \\ \hline
+      Duplicate sensitive     &    $SUM,COUNT$           &     $AVERAGE$     &  $MEDIAN,MODE$ \\ \hline
+    
+    \end{tabular}
+\label{Taxonomy of aggregation functions}
+\end{center}

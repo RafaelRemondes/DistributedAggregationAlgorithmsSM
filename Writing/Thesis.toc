@@ -18,54 +18,96 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Smart Grid Model}{5}{section.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Smart Information SubSystem}{6}{section.16}
+\contentsline {section}{\numberline {2.2}Smart Grid Communication}{6}{section.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Smart Grid Communication}{7}{section.17}
+\contentsline {section}{\numberline {2.3}Smart Information SubSystem}{8}{section.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Smart Meters}{8}{section.18}
+\contentsline {subsection}{\numberline {2.3.1}AMR and AMI}{9}{subsection.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}AMR and AMI}{8}{subsection.19}
+\contentsline {subsection}{\numberline {2.3.2}Smart Meters}{9}{subsection.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Wireless Sensor Networks}{10}{chapter.20}
+\contentsline {subsection}{\numberline {2.3.3}Smart Grid Projects}{10}{subsection.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}WSN and The Smart Grid}{11}{section.21}
+\contentsline {subsubsection}{\numberline {2.3.3.1}Opower 4}{11}{subsubsection.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Distributed Data Aggregation}{13}{chapter.22}
+\contentsline {subsection}{\numberline {2.3.4}DEHEMS Project}{11}{subsection.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Definition}{13}{section.23}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Pecan Street Project}{12}{subsubsection.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Decomposable functions}{13}{subsection.25}
+\contentsline {subsubsection}{\numberline {2.3.4.2}Smart Meter Data Stream in the Cloud}{12}{subsubsection.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Duplicate sensitiveness and idempotence}{15}{subsection.28}
+\contentsline {subsubsection}{\numberline {2.3.4.3}Inovgrid/InovCity}{13}{subsubsection.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Distributed Data Aggregation Algorithms}{15}{section.30}
+\contentsline {subsubsection}{\numberline {2.3.4.4}PowerMatching City}{13}{subsubsection.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Communication}{15}{subsection.31}
+\contentsline {chapter}{\numberline {3}Distributed Data Aggregation}{16}{chapter.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.1}Hierarchy-based approaches}{15}{subsubsection.32}
+\contentsline {section}{\numberline {3.1}Definition}{16}{section.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.2}Gossip-based approaches}{17}{subsubsection.33}
+\contentsline {section}{\numberline {3.2}Wireless Sensor Network}{16}{section.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.3}Hybrid approaches}{18}{subsubsection.34}
+\contentsline {subsection}{\numberline {3.2.1}WSN and Smart Grids}{17}{subsection.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Computation}{18}{subsection.35}
+\contentsline {section}{\numberline {3.3}Distributed Data Aggregation Algorithms}{18}{section.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Hierarchical}{18}{subsubsection.36}
+\contentsline {subsection}{\numberline {3.3.1}Communication}{19}{subsection.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Averaging}{18}{subsubsection.37}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Hierarchy-based approaches}{19}{subsubsection.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.3}Sketches}{19}{subsubsection.38}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Gossip-based approaches}{21}{subsubsection.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.4}Digests}{20}{subsubsection.39}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Hybrid approaches}{21}{subsubsection.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}WSN Data Aggregation}{21}{section.41}
+\contentsline {subsection}{\numberline {3.3.2}Computation}{21}{subsection.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Smart Metering Aggregation Model}{22}{section.43}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Hierarchical}{21}{subsubsection.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.45}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Averaging}{22}{subsubsection.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2.3}Sketches}{23}{subsubsection.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2.4}Digests}{23}{subsubsection.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Distributed Data Aggregation in WSN}{25}{section.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Smart Metering Aggregation Model}{26}{section.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Network Topology}{28}{chapter.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Communication}{28}{section.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}PowerLine Communication}{29}{subsection.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Data Collector/Aggregator}{30}{section.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Demand Side Management and Real Time Pricing}{30}{section.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Case Study}{31}{section.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Network Architecture}{32}{subsection.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Used Aggregation Algorithms}{33}{section.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Push-Sum}{34}{subsection.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Flow Updating}{35}{subsection.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}PushPull}{35}{subsection.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Extrema Propagation}{36}{subsection.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.5}RIA LC/DC}{37}{subsection.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{38}{chapter.114}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Aggregation Functions}{39}{appendix.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.0.6}Decomposable functions}{39}{subsection.116}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.0.7}Duplicate sensitiveness and idempotence}{40}{subsection.119}
+\defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{25}{dummy.46}
+\contentsline {chapter}{Bibliography}{41}{dummy.121}

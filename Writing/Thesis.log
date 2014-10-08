@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.16)  9 FEB 2014 19:15
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.1.16)  4 OCT 2014 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1084,8 +1084,34 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks32
 \verbatim@line=\toks33
 \verbatim@in@stream=\read3
-) (./vector.sty) (/usr/local/texlive/2013/texmf-dist/tex/latex/todonotes/todono
-tes.sty
+) (./vector.sty) (/usr/local/texlive/2013/texmf-dist/tex/latex/algorithms/algor
+ithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count368
+\float@exts=\toks34
+\float@box=\box51
+\@float@everytoks=\toks35
+\@floatcapt=\box52
+)
+\@float@every@algorithm=\toks36
+\c@algorithm=\count369
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count370
+\c@ALC@line=\count371
+\c@ALC@rem=\count372
+\c@ALC@depth=\count373
+\ALC@tlm=\skip86
+\algorithmicindent=\skip87
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
@@ -1093,9 +1119,9 @@ Package: todonotes 2012/07/25
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks34
-\XKV@tempa@toks=\toks35
-\XKV@depth=\count368
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
+\XKV@depth=\count374
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -1103,10 +1129,10 @@ File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks36
+\pgfutil@everybye=\toks39
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box51
+\pgfutil@abb=\box53
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1119,12 +1145,12 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks42
 ))
 \pgf@x=\dimen184
 \pgf@y=\dimen185
@@ -1136,10 +1162,10 @@ ode.tex
 \pgf@yc=\dimen191
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count369
-\c@pgf@countb=\count370
-\c@pgf@countc=\count371
-\c@pgf@countd=\count372
+\c@pgf@counta=\count375
+\c@pgf@countb=\count376
+\c@pgf@countc=\count377
+\c@pgf@countd=\count378
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1161,8 +1187,8 @@ File: pgfsys-common-pdf-via-dvi.def 2008/05/19  (rcs-revision 1.7)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count373
-\pgfsyssoftpath@bigbuffer@items=\count374
+\pgfsyssoftpath@smallbuffer@items=\count379
+\pgfsyssoftpath@bigbuffer@items=\count380
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1175,11 +1201,11 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen192
-\pgfmath@count=\count375
-\pgfmath@box=\box52
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@count=\count381
+\pgfmath@box=\box54
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1198,7 +1224,7 @@ code.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count376
+\c@pgfmathroundto@lastzeros=\count382
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -1234,10 +1260,10 @@ File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box53
-\pgf@hbox=\box54
-\pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count377
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count383
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -1271,7 +1297,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 e.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen269
-\pgf@sys@shading@range@num=\count378
+\pgf@sys@shading@range@num=\count384
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1280,7 +1306,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box56
+\pgfexternal@startupbox=\box58
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1297,7 +1323,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box57
+\pgfnodeparttextbox=\box59
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1320,8 +1346,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen272
 \pgffor@skip=\dimen273
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1330,7 +1356,7 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count379
+\pgf@plot@mark@count=\count385
 \pgfplotmarksize=\dimen274
 )
 \tikz@lastx=\dimen275
@@ -1339,21 +1365,21 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikz@lastysaved=\dimen278
 \tikzleveldistance=\dimen279
 \tikzsiblingdistance=\dimen280
-\tikz@figbox=\box58
-\tikz@tempbox=\box59
-\tikztreelevel=\count380
-\tikznumberofchildren=\count381
-\tikznumberofcurrentchild=\count382
-\tikz@fig@count=\count383
+\tikz@figbox=\box60
+\tikz@tempbox=\box61
+\tikztreelevel=\count386
+\tikznumberofchildren=\count387
+\tikznumberofcurrentchild=\count388
+\tikz@fig@count=\count389
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count384
-\pgfmatrixcurrentcolumn=\count385
-\pgf@matrix@numberofcolumns=\count386
+\pgfmatrixcurrentrow=\count390
+\pgfmatrixcurrentcolumn=\count391
+\pgf@matrix@numberofcolumns=\count392
 )
-\tikz@expandcount=\count387
+\tikz@expandcount=\count393
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1365,26 +1391,26 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count388
-\calc@Bcount=\count389
+\calc@Acount=\count394
+\calc@Bcount=\count395
 \calc@Adimen=\dimen281
 \calc@Bdimen=\dimen282
-\calc@Askip=\skip86
-\calc@Bskip=\skip87
+\calc@Askip=\skip88
+\calc@Bskip=\skip89
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count390
-\calc@Cskip=\skip88
+\calc@Ccount=\count396
+\calc@Cskip=\skip90
 )
-\c@@todonotes@numberoftodonotes=\count391
+\c@@todonotes@numberoftodonotes=\count397
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 44.
+Package hyperref Info: Option `colorlinks' set `false' on input line 48.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen283
 \nom@tempdim=\dimen284
-\nomitemsep=\skip89
+\nomitemsep=\skip91
 )
 \@nomenclaturefile=\write5
 \openout5 = `Thesis.nlo'.
@@ -1410,8 +1436,8 @@ File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2010/02/08 v2.10 (rcs-revision 1.2)
-\pgf@layerbox@background=\box60
-\pgf@layerboxsaved@background=\box61
+\pgf@layerbox@background=\box62
+\pgf@layerboxsaved@background=\box63
 )
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1437,22 +1463,22 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
 (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2007/07/23 v2.10 (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count392
+\pgfcalendarcurrentjulian=\count398
 ))
-\gtt@currentline=\count393
-\gtt@lasttitleline=\count394
-\gtt@currgrid=\count395
-\gtt@chartwidth=\count396
-\gtt@lasttitleslot=\count397
-\gtt@elementid=\count398
-\gtt@today@slot=\count399
-\gtt@startjulian=\count400
-\gtt@endjulian=\count401
-\gtt@calendar@slots=\count402
-\gtt@calendar@weeknumber=\count403
-\gtt@calendar@startofweek=\count404
-\gtt@left@slot=\count405
-\gtt@right@slot=\count406
+\gtt@currentline=\count399
+\gtt@lasttitleline=\count400
+\gtt@currgrid=\count401
+\gtt@chartwidth=\count402
+\gtt@lasttitleslot=\count403
+\gtt@elementid=\count404
+\gtt@today@slot=\count405
+\gtt@startjulian=\count406
+\gtt@endjulian=\count407
+\gtt@calendar@slots=\count408
+\gtt@calendar@weeknumber=\count409
+\gtt@calendar@startofweek=\count410
+\gtt@left@slot=\count411
+\gtt@right@slot=\count412
 ) (./Commands.sty
 Package: Commands 
 )
@@ -1465,10 +1491,10 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2013/08/25 v0.4v Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box62
-\AM@toc@title=\toks45
-\c@AM@survey=\count407
-\AM@templatesizebox=\box63
+\AM@pagebox=\box64
+\AM@toc@title=\toks48
+\c@AM@survey=\count413
+\AM@templatesizebox=\box65
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1476,36 +1502,36 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count408
-\@quotereset=\count409
+\@quotelevel=\count414
+\@quotereset=\count415
 
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 71.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 75.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 75.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1513,70 +1539,71 @@ LaTeX Font Info:    ... okay on input line 71.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 71.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 71.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 71.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 71.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 71.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 71.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 71.
-LaTeX Font Info:    Redeclaring math accent \check on input line 71.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 71.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 71.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 71.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 71.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 75.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 75.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 75.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 75.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 75.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 75.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 75.
+LaTeX Font Info:    Redeclaring math accent \check on input line 75.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 75.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 75.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 75.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 75.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 71.
+(Font)              `operators' in the math version `normal' on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/LinLibertine_R(0)/m/n on input line
- 71.
+ 75.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 71.
+(Font)              `operators' in the math version `bold' on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/LinLibertine_R(0)/m/n on input lin
-e 71.
+e 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/m/n
- on input line 71.
+ on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/m/n
- on input line 71.
+ on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/LinLibertine_R(0)/m/it on input li
-ne 71.
+ne 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/LinLibertine_R(0)/bx/n on input li
-ne 71.
+ne 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 71.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 71.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/bx/
-n on input line 71.
+n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/LinLibertine_R(0)/m/n --> EU1/LinLibertine_R(0)/bx/
-n on input line 71.
+n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/LinLibertine_R(0)/bx/it on input 
-line 71.
+line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 71.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 71.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 75.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1587,9 +1614,9 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count410
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 71.
+\c@lstlisting=\count416
+\AtBeginShipoutBox=\box66
+Package hyperref Info: Link coloring OFF on input line 75.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1597,11 +1624,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count411
+\c@section@level=\count417
 )
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write7
@@ -1615,11 +1642,25 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis.bbl' found.
- (./Thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 71.
-Package biblatex Info: Reference segment=0 on input line 71.
+ (./Thesis.bbl
 
-ABD: EveryShipout initializing macros
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Andrea
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                chap:sg
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
+ ABD: EveryShipout initializing macros
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
@@ -1633,7 +1674,7 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 . 
 . Font NewsGotT Regular does not contain any OpenType `Script' information.
 .................................................
-\g_fontspec_family_NewsGotT Regular_int=\count412
+\g_fontspec_family_NewsGotT Regular_int=\count418
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1750,18 +1791,22 @@ Underfull \hbox (badness 10000) detected at line 11
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 293.
+less on input line 297.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 294.
+less on input line 298.
 
 (./Chapters/intro.tex
 Chapter 1.
 [1
 
 
-] [2]) (./Chapters/sg.tex [3]
+] [2]
+
+LaTeX Warning: Reference `chap:wsn' on page 3 undefined on input line 34.
+
+) (./Chapters/sg.tex [3]
 Chapter 2.
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/differencesTraditionalSmart.jpg Graphic file (type QTm)
@@ -1777,199 +1822,300 @@ iting/Images/NIST_model.jpg Graphic file (type QTm)
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
 riting/Images/NIST_model.jpg" > [4
 
-] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
+iting/Images/interaction.jpg Graphic file (type QTm)
+
+<use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
+riting/Images/interaction.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-[7]) (./Chapters/wsn.tex [8] [9]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+
+ []
+
+[9] [10] [11] [12]
+Overfull \hbox (22.77168pt too wide) in paragraph at lines 94--105
+\EU1/LinLibertine_R(0)/m/n/10.95 stats about energy consumption/production, ope
+rator Portal which is mainly used for operations(monitoring
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
+
+ []
+
+[13] [14]) (./Chapters/dda.tex [15]
 Chapter 3.
+[16
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--6
-
- []
-
-
-LaTeX Warning: Reference `sec:Smart Grid Communication' on page 10 undefined on
- input line 12.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--25
 
  []
 
-[10
-
-] [11]) (./Chapters/dda.tex [12]
-Chapter 4.
-[13
-
-] [14]
-Overfull \hbox (10.57672pt too wide) in paragraph at lines 38--39
-[][]\EU1/LinLibertine_R(0)/bx/n/10.95 Definition 4.4. []\EU1/LinLibertine_R(0)/
-m/n/10.95 An aggregation function $\OML/cmm/m/it/10.95 f$ \EU1/LinLibertine_R(0
-)/m/n/10.95 is said to be duplicate insensitive if for all multiset $\OML/cmm/m
-/it/10.95 M; f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) =
- []
-
-
-Overfull \hbox (10.9944pt too wide) in paragraph at lines 60--65
+[17] [18]
+Overfull \hbox (12.81941pt too wide) in paragraph at lines 35--41
 []\EU1/LinLibertine_R(0)/m/n/10.95 Traditionally, existing aggregation algorith
-ms operate on a hierarchy-based communication scheme.
+ms operate on a hierarchy- based communication scheme.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
 
  []
 
 
-Overfull \hbox (6.80481pt too wide) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
+
+ []
+
+
+Overfull \hbox (6.80481pt too wide) in paragraph at lines 35--41
 \EU1/LinLibertine_R(0)/bx/it/10.95 DRINA \EU1/LinLibertine_R(0)/m/n/10.95 DRINA
- is a cluster based protocol described in [[]35[]] that denominates the algorit
+ is a cluster based protocol described in [[]49[]] that denominates the algorit
 hm as \EU1/LinLibertine_R(0)/m/it/10.95 lightweight
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 35--41
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--76
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--76
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 46--52
 
  []
 
 
-Overfull \hbox (11.90083pt too wide) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+
+ []
+
+
+Overfull \hbox (11.90083pt too wide) in paragraph at lines 67--73
 \EU1/LinLibertine_R(0)/m/n/10.95 work in which aggregates are successfully comp
 uted. There are three modes a node can perform:\EU1/LinLibertine_R(0)/m/it/10.9
 5 leader,idle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 99--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--105
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 106--117
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--117
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--117
+Underfull \hbox (badness 10000) in paragraph at lines 81--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--117
+Underfull \hbox (badness 10000) in paragraph at lines 81--93
 
  []
 
-[20]
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--93
+
+ []
+
+[23]
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/tableComp.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
 riting/Images/tableComp.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/INA.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
-riting/Images/INA.jpg" > [21]
+riting/Images/INA.jpg" > [24] [25]
 File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
 iting/Images/meterExample.jpg Graphic file (type QTm)
 
 <use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
-riting/Images/meterExample.jpg" > [22]) (./Chapters/conc.tex [23]
-Chapter 5.
-) [24
+riting/Images/meterExample.jpg" >
+Overfull \hbox (13.94968pt too wide) in paragraph at lines 111--119
+\EU1/LinLibertine_R(0)/m/n/10.95 One example of the \EU1/LinLibertine_R(0)/m/it
+/10.95 de-centralized \EU1/LinLibertine_R(0)/m/n/10.95 architecture for aggreag
+ation is in the PowerMatching City of Hoogkrek.
+ []
+
+[26]) (./Chapters/network.tex [27]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+
+ []
+
+[28
 
 ]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 18.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+
+ []
+
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+[32]
+File: /Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/Wr
+iting/Images/network.jpg Graphic file (type QTm)
+
+<use  "/Users/rafaelremondes/UM/MEI/Thesis/DistributedAggregationAlgortihmsSM/W
+riting/Images/network.jpg" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[33]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 77.
+ [34]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [35] [36]) (./Chapters/conc.tex [37]
+Chapter 5.
+) (./Appendices/AppendixA.tex [38
+
+]
+Appendix A.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 2.
+
+[39
+
+]
+Overfull \hbox (13.05142pt too wide) in paragraph at lines 30--31
+[][]\EU1/LinLibertine_R(0)/bx/n/10.95 Definition A.3. []\EU1/LinLibertine_R(0)/
+m/n/10.95 An aggregation function $\OML/cmm/m/it/10.95 f$ \EU1/LinLibertine_R(0
+)/m/n/10.95 is said to be duplicate insensitive if for all multiset $\OML/cmm/m
+/it/10.95 M; f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 ) =
+ []
+
+) [40]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 347
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 351
 .
 (/usr/local/texlive/2013/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [25
+) [41
 
 
-] [26]
-[27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
- [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
+] [42]
+[43] [44]
+Overfull \hbox (0.80324pt too wide) in paragraph at lines 352--352
+[]\EU1/LinLibertine_R(0)/m/n/10.95 Pedro Godinho Matos, Antonio Aires Messias, 
+Pedro Ricardo Daniel, Manuel Sao Miguel Oliveira,
+ []
+
+[45]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+ [46]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
  (./Thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 350.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 350.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 354.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 354.
 
 
 LaTeX Warning: There were undefined references.
@@ -1977,15 +2123,15 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
  ) 
 Here is how much of TeX's memory you used:
- 40098 strings out of 493918
- 757052 string characters out of 6148599
- 1148846 words of memory out of 5000000
- 42721 multiletter control sequences out of 15000+600000
- 9571 words of font info for 70 fonts, out of 8000000 for 9000
+ 40435 strings out of 493918
+ 762524 string characters out of 6148599
+ 1155681 words of memory out of 5000000
+ 43041 multiletter control sequences out of 15000+600000
+ 9636 words of font info for 71 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,11n,75p,13134b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,76p,13134b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (36 pages).
+Output written on Thesis.pdf (54 pages).

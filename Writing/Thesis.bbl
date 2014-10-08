@@ -240,6 +240,31 @@
       \field{year}{2005}
       \field{pages}{109\bibrangedash 117}
     \endentry
+    \entry{jelasity2005gossip}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=2373df2581f0556778d5dd54d705d300}{Jelasity}{J\bibinitperiod}{Márk}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1a3f8ab08478a43150277c1aee0ca9ea}{Montresor}{M\bibinitperiod}{Alberto}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=076295e13847a1c03f06d3d9dbf0f4f1}{Babaoglu}{B\bibinitperiod}{Ozalp}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=2373df2581f0556778d5dd54d705d300}{Jelasity}{J\bibinitperiod}{Márk}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=1a3f8ab08478a43150277c1aee0ca9ea}{Montresor}{M\bibinitperiod}{Alberto}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=076295e13847a1c03f06d3d9dbf0f4f1}{Babaoglu}{B\bibinitperiod}{Ozalp}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{2f2c5e64ce1c9719b727cc9c232fc61a}
+      \strng{fullhash}{2f2c5e64ce1c9719b727cc9c232fc61a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Gossip-based aggregation in large dynamic networks}
+      \field{journaltitle}{ACM Transactions on Computer Systems (TOCS)}
+      \field{number}{3}
+      \field{title}{Gossip-based aggregation in large dynamic networks}
+      \field{volume}{23}
+      \field{year}{2005}
+      \field{pages}{219\bibrangedash 252}
+    \endentry
     \entry{birk2006veracity}{inproceedings}{}
       \name{labelname}{5}{}{%
         {{hash=2e375612990b4b849f0548ebd4f1d757}{Birk}{B\bibinitperiod}{Yitzhak}{Y\bibinitperiod}{}{}{}{}}%
@@ -430,6 +455,29 @@
       \endverb
       \keyw{energy policy; electricity; electricity; regulation}
     \endentry
+    \entry{jesus2009fault}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=06da185cff4d8b1de6f9a35bfc40171f}{Jesus}{J\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0bb140bbbc1d3ac7ec6a28bd9d506581}{Baquero}{B\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=846866cfed98e89c3995144153143928}{Almeida}{A\bibinitperiod}{Paulo\bibnamedelima Sérgio}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=06da185cff4d8b1de6f9a35bfc40171f}{Jesus}{J\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0bb140bbbc1d3ac7ec6a28bd9d506581}{Baquero}{B\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=846866cfed98e89c3995144153143928}{Almeida}{A\bibinitperiod}{Paulo\bibnamedelima Sérgio}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3a8ed6774360d0c606ae16f744a61e3b}
+      \strng{fullhash}{3a8ed6774360d0c606ae16f744a61e3b}
+      \field{sortinit}{2}
+      \field{labeltitle}{Fault-tolerant aggregation by flow updating}
+      \field{booktitle}{Distributed Applications and Interoperable Systems}
+      \field{title}{Fault-tolerant aggregation by flow updating}
+      \field{year}{2009}
+      \field{pages}{73\bibrangedash 86}
+    \endentry
     \entry{yu2009distributed}{inproceedings}{}
       \name{labelname}{3}{}{%
         {{hash=acae0d16fe2fdc8a53507106044e646c}{Yu}{Y\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
@@ -473,6 +521,50 @@
       \field{journaltitle}{Prepared for the US Department of Energy}
       \field{title}{A survey of wireless communications for the electric power system}
       \field{year}{2010}
+    \endentry
+    \entry{biagi2010location}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=8128f5c98248303e6a02c29095a038f5}{Biagi}{B\bibinitperiod}{Mauro}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a467406a0baa94bb5ff8a14deb226d37}{Lampe}{L\bibinitperiod}{Lutz}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8128f5c98248303e6a02c29095a038f5}{Biagi}{B\bibinitperiod}{Mauro}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a467406a0baa94bb5ff8a14deb226d37}{Lampe}{L\bibinitperiod}{Lutz}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4f49b4ec144a9ed169b46f25408b7d74}
+      \strng{fullhash}{4f49b4ec144a9ed169b46f25408b7d74}
+      \field{sortinit}{2}
+      \field{labeltitle}{Location assisted routing techniques for power line communication in smart grids}
+      \field{booktitle}{Smart Grid Communications (SmartGridComm), 2010 First IEEE International Conference on}
+      \field{title}{Location assisted routing techniques for power line communication in smart grids}
+      \field{year}{2010}
+      \field{pages}{274\bibrangedash 278}
+    \endentry
+    \entry{fan2010efficient}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=83920233ce6614d3df01518d01cf7aad}{Fan}{F\bibinitperiod}{Yao-Chung}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=d973f6b79552de8a2331806aac5c5085}{Chen}{C\bibinitperiod}{Arbee\bibnamedelima LP}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=83920233ce6614d3df01518d01cf7aad}{Fan}{F\bibinitperiod}{Yao-Chung}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=d973f6b79552de8a2331806aac5c5085}{Chen}{C\bibinitperiod}{Arbee\bibnamedelima LP}{A\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{146b9ea3aea8041059cad10a52ecc9af}
+      \strng{fullhash}{146b9ea3aea8041059cad10a52ecc9af}
+      \field{sortinit}{2}
+      \field{labeltitle}{Efficient and robust schemes for sensor data aggregation based on linear counting}
+      \field{journaltitle}{Parallel and Distributed Systems, IEEE Transactions on}
+      \field{number}{11}
+      \field{title}{Efficient and robust schemes for sensor data aggregation based on linear counting}
+      \field{volume}{21}
+      \field{year}{2010}
+      \field{pages}{1675\bibrangedash 1691}
     \endentry
     \entry{farhangi2010path}{article}{}
       \name{labelname}{1}{}{%
@@ -543,6 +635,54 @@
       \field{year}{2010}
       \field{pages}{697\bibrangedash 707}
     \endentry
+    \entry{samadi2010optimal}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=c10be9067d8b15911cd563ac81a842be}{Samadi}{S\bibinitperiod}{Pedram}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=376613e18c5f676c8377f8715e21fac9}{Mohsenian-Rad}{M\bibinithyphendelim R\bibinitperiod}{A-H}{A\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=2bbcbd688ed10b2616a700b227ee54aa}{Schober}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c0aae85370324a139c7f99f80071cdaf}{Wong}{W\bibinitperiod}{Vincent\bibnamedelima WS}{V\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a63403ab606d2fcb97f43448eadf6497}{Jatskevich}{J\bibinitperiod}{Juri}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=c10be9067d8b15911cd563ac81a842be}{Samadi}{S\bibinitperiod}{Pedram}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=376613e18c5f676c8377f8715e21fac9}{Mohsenian-Rad}{M\bibinithyphendelim R\bibinitperiod}{A-H}{A\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=2bbcbd688ed10b2616a700b227ee54aa}{Schober}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c0aae85370324a139c7f99f80071cdaf}{Wong}{W\bibinitperiod}{Vincent\bibnamedelima WS}{V\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=a63403ab606d2fcb97f43448eadf6497}{Jatskevich}{J\bibinitperiod}{Juri}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b0d5ba495be13a8a6330b5b166f606f8}
+      \strng{fullhash}{97ef23fc6f55f060758d9d23f31571b9}
+      \field{sortinit}{2}
+      \field{labeltitle}{Optimal real-time pricing algorithm based on utility maximization for smart grid}
+      \field{booktitle}{Smart Grid Communications (SmartGridComm), 2010 First IEEE International Conference on}
+      \field{title}{Optimal real-time pricing algorithm based on utility maximization for smart grid}
+      \field{year}{2010}
+      \field{pages}{415\bibrangedash 420}
+    \endentry
+    \entry{taqqali2010smart}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=08a120171a769edd8c146972a9cb5179}{Taqqali}{T\bibinitperiod}{Wasim\bibnamedelima M}{W\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=8c69357337151e91deeebe37f9ac8c28}{Abdulaziz}{A\bibinitperiod}{Nidhal}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=08a120171a769edd8c146972a9cb5179}{Taqqali}{T\bibinitperiod}{Wasim\bibnamedelima M}{W\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=8c69357337151e91deeebe37f9ac8c28}{Abdulaziz}{A\bibinitperiod}{Nidhal}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6c6baffacc1cdf6dd2f5af2ae6e75f45}
+      \strng{fullhash}{6c6baffacc1cdf6dd2f5af2ae6e75f45}
+      \field{sortinit}{2}
+      \field{labeltitle}{Smart grid and demand response technology}
+      \field{booktitle}{Energy Conference and Exhibition (EnergyCon), 2010 IEEE International}
+      \field{title}{Smart grid and demand response technology}
+      \field{year}{2010}
+      \field{pages}{710\bibrangedash 715}
+    \endentry
     \entry{RePEc:eee:rensus:v:15:y:2011:i:6:p:2736-2742}{article}{}
       \name{labelname}{3}{}{%
         {{hash=95ed7351c13082dc1905c95c45ccd469}{Depuru}{D\bibinitperiod}{Soma\bibnamedelimb Shekara\bibnamedelimb Sreenadh\bibnamedelima Reddy}{S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
@@ -570,6 +710,31 @@
       \endverb
       \keyw{Power grid Metering infrastructure Communication technologies Smart grid Smart meters}
     \endentry
+    \entry{galli2011grid}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=1a1a8db04d3785c947904b35b5d774a1}{Galli}{G\bibinitperiod}{Stefano}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=089c784a258601e265d298a5bc119980}{Scaglione}{S\bibinitperiod}{Anna}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=633bb460025ce771dd32199ecd85c8b7}{Wang}{W\bibinitperiod}{Zhifang}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=1a1a8db04d3785c947904b35b5d774a1}{Galli}{G\bibinitperiod}{Stefano}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=089c784a258601e265d298a5bc119980}{Scaglione}{S\bibinitperiod}{Anna}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=633bb460025ce771dd32199ecd85c8b7}{Wang}{W\bibinitperiod}{Zhifang}{Z\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4f8d260169f486fce9069f0beacea971}
+      \strng{fullhash}{4f8d260169f486fce9069f0beacea971}
+      \field{sortinit}{2}
+      \field{labeltitle}{For the grid and through the grid: The role of power line communications in the smart grid}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{6}
+      \field{title}{For the grid and through the grid: The role of power line communications in the smart grid}
+      \field{volume}{99}
+      \field{year}{2011}
+      \field{pages}{998\bibrangedash 1027}
+    \endentry
     \entry{government2011nist}{book}{}
       \name{labelname}{1}{}{%
         {{hash=1aebe6b32aed574fdcdfecfba4d54ebf}{Government}{G\bibinitperiod}{U.S.}{U\bibinitperiod}{}{}{}{}}%
@@ -590,6 +755,39 @@
       \verb{url}
       \verb http://books.google.pt/books?id=-C7UygAACAAJ
       \endverb
+    \endentry
+    \entry{gungor2011smart}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=a7747dac1f82d81a49873dcab96dab48}{Gungor}{G\bibinitperiod}{Vehbi\bibnamedelima C}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=526af0f43e721316f173a5398c637d8b}{Sahin}{S\bibinitperiod}{Dilan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=1d6f8e4585f2d720d3d6cd79928d8284}{Kocak}{K\bibinitperiod}{Taskin}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=c00ae13873c66d318215ab261fa88289}{Ergut}{E\bibinitperiod}{Salih}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=67ac3e9a0020c74de0130b2f01a2c916}{Buccella}{B\bibinitperiod}{Concettina}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=a40a6325855e1b721bc68cf4b0aeec34}{Cecati}{C\bibinitperiod}{Carlo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c86a40bef71d4c03e8d4c4a5dd9392d4}{Hancke}{H\bibinitperiod}{Gerhard\bibnamedelima P}{G\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=a7747dac1f82d81a49873dcab96dab48}{Gungor}{G\bibinitperiod}{Vehbi\bibnamedelima C}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=526af0f43e721316f173a5398c637d8b}{Sahin}{S\bibinitperiod}{Dilan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=1d6f8e4585f2d720d3d6cd79928d8284}{Kocak}{K\bibinitperiod}{Taskin}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=c00ae13873c66d318215ab261fa88289}{Ergut}{E\bibinitperiod}{Salih}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=67ac3e9a0020c74de0130b2f01a2c916}{Buccella}{B\bibinitperiod}{Concettina}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=a40a6325855e1b721bc68cf4b0aeec34}{Cecati}{C\bibinitperiod}{Carlo}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=c86a40bef71d4c03e8d4c4a5dd9392d4}{Hancke}{H\bibinitperiod}{Gerhard\bibnamedelima P}{G\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ac5a6b705277f31e8d4011ef2d3980ab}
+      \strng{fullhash}{779a1a6d4d685ff8b15c7c0f0a351791}
+      \field{sortinit}{2}
+      \field{labeltitle}{Smart grid technologies: communication technologies and standards}
+      \field{journaltitle}{Industrial informatics, IEEE transactions on}
+      \field{number}{4}
+      \field{title}{Smart grid technologies: communication technologies and standards}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{pages}{529\bibrangedash 539}
     \endentry
     \entry{journals/corr/abs-1110-0725}{article}{}
       \name{labelname}{3}{}{%
@@ -639,6 +837,77 @@
       \field{volume}{13}
       \field{year}{2011}
       \field{pages}{168\bibrangedash 182}
+    \endentry
+    \entry{lampe2011cooperative}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=a467406a0baa94bb5ff8a14deb226d37}{Lampe}{L\bibinitperiod}{Lutz}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=23e56f0232d0e5b9ed19226d7d2353a6}{Vinck}{V\bibinitperiod}{AJ}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=a467406a0baa94bb5ff8a14deb226d37}{Lampe}{L\bibinitperiod}{Lutz}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=23e56f0232d0e5b9ed19226d7d2353a6}{Vinck}{V\bibinitperiod}{AJ}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9c2ea431bb20db465933b8e1cec28113}
+      \strng{fullhash}{9c2ea431bb20db465933b8e1cec28113}
+      \field{sortinit}{2}
+      \field{labeltitle}{On cooperative coding for narrow band PLC networks}
+      \field{journaltitle}{AEU-International Journal of Electronics and Communications}
+      \field{number}{8}
+      \field{title}{On cooperative coding for narrow band PLC networks}
+      \field{volume}{65}
+      \field{year}{2011}
+      \field{pages}{681\bibrangedash 687}
+    \endentry
+    \entry{lohrmann2011processing}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=4fecc5c5d0f7c3a8e38c0eb0eddf8eec}{Lohrmann}{L\bibinitperiod}{Björn}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=8ef7694bfbbf1ae7761bd3c14390818c}{Kao}{K\bibinitperiod}{Odej}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4fecc5c5d0f7c3a8e38c0eb0eddf8eec}{Lohrmann}{L\bibinitperiod}{Björn}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=8ef7694bfbbf1ae7761bd3c14390818c}{Kao}{K\bibinitperiod}{Odej}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{24c133d7510023febe7079e61666ba27}
+      \strng{fullhash}{24c133d7510023febe7079e61666ba27}
+      \field{sortinit}{2}
+      \field{labeltitle}{Processing smart meter data streams in the cloud}
+      \field{booktitle}{Innovative Smart Grid Technologies (ISGT Europe), 2011 2nd IEEE PES International Conference and Exhibition on}
+      \field{title}{Processing smart meter data streams in the cloud}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 8}
+    \endentry
+    \entry{baquero2012extrema}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0bb140bbbc1d3ac7ec6a28bd9d506581}{Baquero}{B\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=846866cfed98e89c3995144153143928}{Almeida}{A\bibinitperiod}{Paulo\bibnamedelima Sérgio}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=1153ae4bffd8b3977b65de3a83369b2e}{Menezes}{M\bibinitperiod}{Raquel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=06da185cff4d8b1de6f9a35bfc40171f}{Jesus}{J\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0bb140bbbc1d3ac7ec6a28bd9d506581}{Baquero}{B\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=846866cfed98e89c3995144153143928}{Almeida}{A\bibinitperiod}{Paulo\bibnamedelima Sérgio}{P\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=1153ae4bffd8b3977b65de3a83369b2e}{Menezes}{M\bibinitperiod}{Raquel}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=06da185cff4d8b1de6f9a35bfc40171f}{Jesus}{J\bibinitperiod}{Paulo}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{27323540735b1724fe670632a736ece0}
+      \strng{fullhash}{a7579b88f5864b4e0cdcb29d53e83ddc}
+      \field{sortinit}{2}
+      \field{labeltitle}{Extrema propagation: Fast distributed estimation of sums and network sizes}
+      \field{journaltitle}{Parallel and Distributed Systems, IEEE Transactions on}
+      \field{number}{4}
+      \field{title}{Extrema propagation: Fast distributed estimation of sums and network sizes}
+      \field{volume}{23}
+      \field{year}{2012}
+      \field{pages}{668\bibrangedash 675}
     \endentry
     \entry{rottondi2012}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -708,6 +977,33 @@
       \verb http://dblp.uni-trier.de/db/journals/ijdsn/ijdsn2012.html#Liu12
       \endverb
       \keyw{dblp}
+    \endentry
+    \entry{sendin2012performance}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=692aa6b222d05fa311596e356751acce}{Sendin}{S\bibinitperiod}{Alberto}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a71c825786fbc1f9f31184fec433b09d}{Berganza}{B\bibinitperiod}{Inigo}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=9bddcf55d6e0bdb7852a5a19f961dddd}{Arzuaga}{A\bibinitperiod}{Aitor}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=57fcb224df2aa0c347f8ee7fe461fe11}{Pulkkinen}{P\bibinitperiod}{Anssi}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=66edc6b4be5cbb0f89c0a893bb22b8df}{Kim}{K\bibinitperiod}{Il\bibnamedelima Han}{I\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=692aa6b222d05fa311596e356751acce}{Sendin}{S\bibinitperiod}{Alberto}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a71c825786fbc1f9f31184fec433b09d}{Berganza}{B\bibinitperiod}{Inigo}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=9bddcf55d6e0bdb7852a5a19f961dddd}{Arzuaga}{A\bibinitperiod}{Aitor}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=57fcb224df2aa0c347f8ee7fe461fe11}{Pulkkinen}{P\bibinitperiod}{Anssi}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=66edc6b4be5cbb0f89c0a893bb22b8df}{Kim}{K\bibinitperiod}{Il\bibnamedelima Han}{I\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{34fcfac31969ecb690db88788c5e7b8d}
+      \strng{fullhash}{6cbd945e44eba8a03c01fea351ab53a1}
+      \field{sortinit}{2}
+      \field{labeltitle}{Performance results from 100,000+ PRIME smart meters deployment in Spain}
+      \field{booktitle}{Smart Grid Communications (SmartGridComm), 2012 IEEE Third International Conference on}
+      \field{title}{Performance results from 100,000+ PRIME smart meters deployment in Spain}
+      \field{year}{2012}
+      \field{pages}{145\bibrangedash 150}
     \endentry
     \entry{asad2013survey}{article}{}
       \name{labelname}{3}{}{%
@@ -813,6 +1109,52 @@
       \verb http://diktio.dyndns.org/files/2013_INDIN_aggregationPerformance.pdf
       \endverb
     \endentry
+    \entry{matos2013inovgrid}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=9234908ac73e7e4c51cf7afb8e1a541a}{Matos}{M\bibinitperiod}{Pedro\bibnamedelima Godinho}{P\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=c21c82a163c7612c8103ac1df82f86ab}{Messias}{M\bibinitperiod}{Antonio\bibnamedelima Aires}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=03a5bc533a61ef7756f903dc17ec81e6}{Daniel}{D\bibinitperiod}{Pedro\bibnamedelima Ricardo}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=bc5ccba938d46ef428b6db1946da37c2}{Oliveira}{O\bibinitperiod}{Manuel\bibnamedelimb Sao\bibnamedelima Miguel}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=85115a2f77be2912ef0a0d363c6d889e}{Veiga}{V\bibinitperiod}{Ana\bibnamedelima Margarida}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=5d10c29ade80af92f9d79f38e180bb04}{Monteiro}{M\bibinitperiod}{Paulo\bibnamedelima Libano}{P\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=9234908ac73e7e4c51cf7afb8e1a541a}{Matos}{M\bibinitperiod}{Pedro\bibnamedelima Godinho}{P\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=c21c82a163c7612c8103ac1df82f86ab}{Messias}{M\bibinitperiod}{Antonio\bibnamedelima Aires}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=03a5bc533a61ef7756f903dc17ec81e6}{Daniel}{D\bibinitperiod}{Pedro\bibnamedelima Ricardo}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=bc5ccba938d46ef428b6db1946da37c2}{Oliveira}{O\bibinitperiod}{Manuel\bibnamedelimb Sao\bibnamedelima Miguel}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=85115a2f77be2912ef0a0d363c6d889e}{Veiga}{V\bibinitperiod}{Ana\bibnamedelima Margarida}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=5d10c29ade80af92f9d79f38e180bb04}{Monteiro}{M\bibinitperiod}{Paulo\bibnamedelima Libano}{P\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IET}%
+      }
+      \strng{namehash}{b6d47ccf3a735c94e9dc54e68030bd7c}
+      \strng{fullhash}{6f78aa87dee30ae4fb6ef2c3fdffab31}
+      \field{sortinit}{2}
+      \field{labeltitle}{Inovgrid, a smart vision for a next generation distribution system}
+      \field{booktitle}{Electricity Distribution (CIRED 2013), 22nd International Conference and Exhibition on}
+      \field{title}{Inovgrid, a smart vision for a next generation distribution system}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 4}
+    \endentry
+    \entry{pagani2013grid}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=7c5fbafa4a098b7d3f4de8f7eb14a296}{Pagani}{P\bibinitperiod}{Giuliano\bibnamedelima Andrea}{G\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=61c9418bf8975db8e23b20012c036b6a}{Aiello}{A\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=7c5fbafa4a098b7d3f4de8f7eb14a296}{Pagani}{P\bibinitperiod}{Giuliano\bibnamedelima Andrea}{G\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=61c9418bf8975db8e23b20012c036b6a}{Aiello}{A\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4cc371a0b8cec5b88f3ccadf5574e067}
+      \strng{fullhash}{4cc371a0b8cec5b88f3ccadf5574e067}
+      \field{sortinit}{2}
+      \field{labeltitle}{From the Grid to the Smart Grid, Topologically}
+      \field{journaltitle}{arXiv preprint arXiv:1305.0458}
+      \field{title}{From the Grid to the Smart Grid, Topologically}
+      \field{year}{2013}
+    \endentry
     \entry{DBLP:conf/isgteurope/SuzukiNYKMKA13}{inproceedings}{}
       \name{labelname}{7}{}{%
         {{hash=f6b1b283c67002a52bfae6db1e65a9bc}{Suzuki}{S\bibinitperiod}{Keita}{K\bibinitperiod}{}{}{}{}}%
@@ -868,6 +1210,93 @@
       \field{title}{DRINA: a lightweight and reliable routing approach for in-network aggregation in wireless sensor networks}
       \field{year}{2013}
     \endentry
+    \entry{lin2014designing}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=2675ce64a7b4a7c4add34889ad7b49d8}{Lin}{L\bibinitperiod}{Xue}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=f7405ddd05d82415227c6c3e2647674f}{Wang}{W\bibinitperiod}{Yanzhi}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c32a0088cce31e2bbf0f8e65375b00}{Pedram}{P\bibinitperiod}{Massoud}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=2675ce64a7b4a7c4add34889ad7b49d8}{Lin}{L\bibinitperiod}{Xue}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=f7405ddd05d82415227c6c3e2647674f}{Wang}{W\bibinitperiod}{Yanzhi}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c32a0088cce31e2bbf0f8e65375b00}{Pedram}{P\bibinitperiod}{Massoud}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{784d043065840864dde33ac11b674bdd}
+      \strng{fullhash}{784d043065840864dde33ac11b674bdd}
+      \field{sortinit}{2}
+      \field{labeltitle}{Designing the Optimal Pricing Policy for Aggregators in the Smart Grid}
+      \field{booktitle}{Green Technologies Conference (GreenTech), 2014 Sixth Annual IEEE}
+      \field{title}{Designing the Optimal Pricing Policy for Aggregators in the Smart Grid}
+      \field{year}{2014}
+      \field{pages}{75\bibrangedash 80}
+    \endentry
+    \entry{website:powermatching}{misc}{}
+      \field{sortinit}{9}
+      \field{labeltitle}{Hoogkrek, PowerMatching City}
+      \field{title}{Hoogkrek, PowerMatching City}
+      \verb{url}
+      \verb http://www.powermatchingcity.nl/
+      \endverb
+    \endentry
+    \entry{website:informix}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{IBM}{I\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{IBM}{I\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{9}
+      \field{labeltitle}{Informix TimeSeries}
+      \field{title}{Informix TimeSeries}
+      \verb{url}
+      \verb http://www-01.ibm.com/software/data/informix/timeseries/
+      \endverb
+    \endentry
+    \entry{website:pecan}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=7b5de2ec4af071dcb30855a5c1295c6f}{Institute}{I\bibinitperiod}{Pecan\bibnamedelimb Street\bibnamedelima Research}{P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=7b5de2ec4af071dcb30855a5c1295c6f}{Institute}{I\bibinitperiod}{Pecan\bibnamedelimb Street\bibnamedelima Research}{P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7b5de2ec4af071dcb30855a5c1295c6f}
+      \strng{fullhash}{7b5de2ec4af071dcb30855a5c1295c6f}
+      \field{sortinit}{9}
+      \field{labeltitle}{Pecan Street Project}
+      \field{title}{Pecan Street Project}
+      \verb{url}
+      \verb http://www.pecanstreet.org/
+      \endverb
+    \endentry
+    \entry{website:opower}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=a9fb8d772ece3792f67138a8c27da96d}{OPower}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a9fb8d772ece3792f67138a8c27da96d}{OPower}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a9fb8d772ece3792f67138a8c27da96d}
+      \strng{fullhash}{a9fb8d772ece3792f67138a8c27da96d}
+      \field{sortinit}{9}
+      \field{labeltitle}{OPower 4}
+      \field{title}{OPower 4}
+      \verb{url}
+      \verb http://opower.com/company/news-press/press_releases/67
+      \endverb
+    \endentry
+    \entry{website:dehems}{misc}{}
+      \field{sortinit}{9}
+      \field{labeltitle}{The DEHEMS Project}
+      \field{title}{The DEHEMS Project}
+      \verb{url}
+      \verb http://www.dehems.eu/
+      \endverb
+    \endentry
     \entry{Ericsson_2}{article}{}
       \name{labelname}{1}{}{%
         {{hash=e941cf8907743a6dac30f0ae6d32deda}{Ericsson}{E\bibinitperiod}{G.\bibnamedelimi N.}{G\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
@@ -903,6 +1332,8 @@
       \keyw{security,smart\_grid}
     \endentry
   \endsortlist
+  \missing{Andrea}
+  \missing{chap:sg}
 \endrefsection
 \endinput
 
